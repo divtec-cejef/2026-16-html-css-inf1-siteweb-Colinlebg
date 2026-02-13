@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Ajouter quelques Information">
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Chaner l'icon du site">
+      <change afterPath="$PROJECT_DIR$/img/HD-Terraria-Logo.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +64,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\img" />
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS" />
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\css" />
     </key>
@@ -89,7 +85,7 @@
       <updated>1769768165496</updated>
       <workItem from="1769768166721" duration="3185000" />
       <workItem from="1769780425814" duration="12000" />
-      <workItem from="1770967650897" duration="2164000" />
+      <workItem from="1770967650897" duration="3253000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -115,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769771487714</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Chaner l'icon du site">
+      <option name="closed" value="true" />
+      <created>1770972155568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770972155568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajouter structure du fichier" />
     <MESSAGE value="Ajouter quelques Information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajouter quelques Information" />
+    <MESSAGE value="Chaner l'icon du site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chaner l'icon du site" />
   </component>
 </project>

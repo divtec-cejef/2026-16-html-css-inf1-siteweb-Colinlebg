@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Ajouter l'accueil avec text">
-      <change afterPath="$PROJECT_DIR$/fonts/comic-neue-v9-latin-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Terarria.jpg" afterDir="false" />
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Fini l'introduction et commencer l'explication du jeux">
+      <change afterPath="$PROJECT_DIR$/Video/Gameplay-Terraria.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Arbre_Terraria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Logo_twitch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Logo_youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_discord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/terraria-biome-background-h1bm9hfi6el9yrfu.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -58,7 +62,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "Terraria-Guide",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/vogtcol/WebstormProjects/Atelier HTML-CSS/img",
+    "last_opened_file_path": "C:/Users/vogtcol/WebstormProjects/Atelier HTML-CSS/Video",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
@@ -67,11 +71,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\Video" />
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\fonts" />
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\img" />
+      <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\Video" />
+      <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\fonts" />
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS" />
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\css" />
     </key>
@@ -92,7 +98,8 @@
       <updated>1769768165496</updated>
       <workItem from="1769768166721" duration="3185000" />
       <workItem from="1769780425814" duration="12000" />
-      <workItem from="1770967650897" duration="9657000" />
+      <workItem from="1770967650897" duration="9708000" />
+      <workItem from="1770984340346" duration="10137000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -134,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770973235010</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fini l'introduction et commencer l'explication du jeux">
+      <option name="closed" value="true" />
+      <created>1770980283415</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770980283415</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +160,7 @@
     <MESSAGE value="Ajouter quelques Information" />
     <MESSAGE value="Chaner l'icon du site" />
     <MESSAGE value="Ajouter l'accueil avec text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajouter l'accueil avec text" />
+    <MESSAGE value="Fini l'introduction et commencer l'explication du jeux" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fini l'introduction et commencer l'explication du jeux" />
   </component>
 </project>

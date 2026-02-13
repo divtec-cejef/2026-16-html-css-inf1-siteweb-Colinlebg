@@ -20,17 +20,18 @@ body {
     background-color: whitesmoke;
     max-width: calc(100% - 23px);
     margin: auto;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
+    background-image: url("../img/terraria-biome-background-h1bm9hfi6el9yrfu.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 a {
     color: deeppink;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 
 a:hover {
@@ -38,20 +39,31 @@ a:hover {
 }
 
 header img {
+    position: fixed;
+    justify-content: center;
+    left: 18%;
     display: block;
+    width: auto;
     margin: auto;
-    width: calc(100% - 130px);
-    margin-top: 20px;
+    margin-top: -100px;
 }
 
 .Box-gris-foncee {
     background-color: #424242;
     color: #D3D3D3;
     padding: 0 40px 0;
+    margin: 110px 0 0;
     border-radius: 25px;
 }
 .Box-gris-foncee img {
     border-radius: 100px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.Box-gris-foncee .introduction h1 {
+    padding-top: 20px;
 }
 
 .Box-verte {
@@ -60,3 +72,66 @@ header img {
     padding: 0 40px 0;
     border-radius: 25px;
 }
+
+.Box-verte .Description h1 {
+    padding-top: 20px;
+}
+
+.Box-verte .Description {
+    padding-bottom: 20px;
+}
+
+.Box-verte video {
+    max-width: 100%;
+}
+
+.Box-jaune {
+    display: block;
+    background-color: #F7F3BB;
+    color: #000000;
+    padding: 0 40px 0;
+    border-radius: 25px;
+}
+
+footer {
+    text-align: center;
+    display: block;
+    background-color: #D3D3D3;
+    color: #000000;
+    padding: 0 30px 200px ;
+    border-radius: 25px 25px 0 0;
+
+}
+
+footer .reseau-sociaux {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 10px;
+    width: 100%;
+
+}
+
+.cercle-fixe {
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    border: 3px solid #000000;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.cercle-fixe img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+

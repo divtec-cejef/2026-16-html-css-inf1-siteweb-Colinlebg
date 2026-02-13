@@ -40,9 +40,7 @@ a:hover {
 
 header img {
     position: fixed;
-    justify-content: center;
     left: 18%;
-    display: block;
     width: auto;
     margin: auto;
     margin-top: -100px;
@@ -93,12 +91,21 @@ header img {
     border-radius: 25px;
 }
 
+.Box-jaune .Mise-a-jour h1 {
+    padding-top: 20px;
+}
+
+.Box-jaune .Mise-a-jour {
+    padding-bottom: 20px;
+}
+
 footer {
     text-align: center;
     display: block;
     background-color: #D3D3D3;
     color: #000000;
     padding: 0 30px 200px ;
+    margin: 40px 0 0;
     border-radius: 25px 25px 0 0;
 
 }

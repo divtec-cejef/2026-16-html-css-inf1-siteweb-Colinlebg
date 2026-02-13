@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Fini l'introduction et commencer l'explication du jeux">
-      <change afterPath="$PROJECT_DIR$/Video/Gameplay-Terraria.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Arbre_Terraria.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Logo_twitch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Logo_youtube.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_discord.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/terraria-biome-background-h1bm9hfi6el9yrfu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Fini l'accueil">
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -99,7 +92,7 @@
       <workItem from="1769768166721" duration="3185000" />
       <workItem from="1769780425814" duration="12000" />
       <workItem from="1770967650897" duration="9708000" />
-      <workItem from="1770984340346" duration="10137000" />
+      <workItem from="1770984340346" duration="10442000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -149,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770980283415</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fini l'accueil">
+      <option name="closed" value="true" />
+      <created>1770994905887</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770994905887</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +162,7 @@
     <MESSAGE value="Chaner l'icon du site" />
     <MESSAGE value="Ajouter l'accueil avec text" />
     <MESSAGE value="Fini l'introduction et commencer l'explication du jeux" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fini l'introduction et commencer l'explication du jeux" />
+    <MESSAGE value="Fini l'accueil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fini l'accueil" />
   </component>
 </project>

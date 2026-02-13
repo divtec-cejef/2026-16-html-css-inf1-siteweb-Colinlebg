@@ -1,15 +1,25 @@
+/* comic-neue-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Comic Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/comic-neue-v9-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Comic Neue;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 18px;
     line-height: 1.4;
     color: darkblue;
     background-color: whitesmoke;
+    max-width: calc(100% - 23px);
+    margin: auto;
 }
 
 img {
@@ -25,4 +35,28 @@ a {
 
 a:hover {
     color: darkmagenta;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    width: calc(100% - 130px);
+    margin-top: 20px;
+}
+
+.Box-gris-foncee {
+    background-color: #424242;
+    color: #D3D3D3;
+    padding: 0 40px 0;
+    border-radius: 25px;
+}
+.Box-gris-foncee img {
+    border-radius: 100px;
+}
+
+.Box-verte {
+    background-color: #2E7D32;
+    color: #FFFFFF;
+    padding: 0 40px 0;
+    border-radius: 25px;
 }

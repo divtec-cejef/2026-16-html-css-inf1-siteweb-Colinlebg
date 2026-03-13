@@ -74,7 +74,7 @@ header img {
 .Box-verte,
 .Box-jaune,
 .Box-violet,
-.Box-orange {
+.Box-noir {
     border-radius: 25px;
     padding: 0 40px 20px;
     margin: 20px 0;
@@ -84,7 +84,7 @@ header img {
 .Box-verte h1,
 .Box-jaune h1,
 .Box-violet h1,
-.Box-orange h1 {
+.Box-noir h1 {
     padding-top: 20px;
     font-size: 48px;
     font-weight: 700;
@@ -96,7 +96,7 @@ header img {
 .Box-verte ul,
 .Box-jaune ul,
 .Box-violet ul,
-.Box-orange ul {
+.Box-noir ul {
     padding-left: 20px;
     margin: 10px 0;
 }
@@ -105,7 +105,7 @@ header img {
 .Box-verte li,
 .Box-jaune li,
 .Box-violet li,
-.Box-orange li {
+.Box-noir li {
     margin-bottom: 8px;
 }
 
@@ -145,30 +145,22 @@ header img {
     color: #FFFFFF;
 }
 
-.Box-orange {
-    background-color: #E65100;
+.Box-noir {
+    background-color: #000000;
     color: #FFFFFF;
 }
+
 
 /* =============================================
    VIDEO PLACEHOLDER
    ============================================= */
 
-.video-placeholder {
-    background-color: #D9D9D9;
-    height: 200px;
+.video-placeholder video {
+    max-width: 100%;
+    width: 100%;
     border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 16px 0;
 }
 
-.video-placeholder p {
-    font-size: 36px;
-    font-weight: 700;
-    color: #111;
-}
 
 /* =============================================
    TABLEAU GUIDE
@@ -193,12 +185,12 @@ header img {
 .tableau-guide td {
     padding: 10px 14px;
     border: 1px solid #ccc;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     color: #111;
 }
 
 .tableau-guide tr:nth-child(even) td {
-    background-color: rgba(255,255,240,0.8);
+    background-color: rgba(255, 255, 240, 0.8);
 }
 
 /* =============================================
@@ -223,12 +215,12 @@ footer .reseau-sociaux {
 }
 
 /* =============================================
-   CERCLE FLOTTANT (bouton menu)
+   CERCLE FLOTTANT
    ============================================= */
 
 .cercle-fixe {
     position: fixed;
-    bottom: 30px;
+    bottom: 80px;
     left: 50%;
     transform: translateX(-50%);
     width: 100px;
@@ -240,19 +232,19 @@ footer .reseau-sociaux {
     justify-content: center;
     align-items: flex-start;
     padding-top: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     z-index: 2000;
     cursor: pointer;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .cercle-fixe:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .cercle-fixe.ouvert {
     border-color: #2E7D32;
-    box-shadow: 0 0 0 4px rgba(46,125,50,0.3);
+    box-shadow: 0 0 0 4px rgba(46, 125, 50, 0.3);
 }
 
 .cercle-fixe img {
@@ -262,21 +254,24 @@ footer .reseau-sociaux {
 }
 
 /* =============================================
-   MENU FLOTTANT - plein écran, descend du haut
+   MENU FLOTTANT - descend du haut
+   justify-content: flex-start + padding-top
+   pour pousser les boutons vers le haut
    ============================================= */
 
 .menu-flottant {
     position: fixed;
-    top: 0;
+    top: 50px;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* ← boutons poussés vers le haut */
     align-items: center;
-    gap: 16px;
+    gap: 12px;
+    padding: 100px 20px 20px; /* ← 100px depuis le haut pour laisser place au logo */
     z-index: 1500;
 
     transform: translateY(-100%);
@@ -295,32 +290,32 @@ footer .reseau-sociaux {
 
 .menu-btn {
     display: block;
-    background-color: #F7F3BB;
+    background-color: #D3D3D3;
     color: #111 !important;
     font-family: 'Comic Neue', 'Comic Sans MS', cursive;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     text-decoration: none;
-    padding: 14px 50px;
+    padding: 18px 0;
     border-radius: 50px;
-    border: 2px solid #111;
-    box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+    border: 2px solid #555;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
     white-space: nowrap;
     transition: background-color 0.2s ease, transform 0.1s ease;
-    min-width: 220px;
+    width: 100%;
     text-align: center;
 }
 
 .menu-btn:hover {
     background-color: #2E7D32;
     color: #fff !important;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .menu-btn.actif {
-    background-color: #424242;
-    color: #D3D3D3 !important;
-    border-color: #D3D3D3;
+    background-color: #F7F3BB;
+    color: #111 !important;
+    border-color: #111;
 }
 
 /* =============================================

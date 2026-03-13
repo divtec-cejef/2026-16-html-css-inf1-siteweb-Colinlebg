@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Vraiment Fini la page d'accueil">
-      <change afterPath="$PROJECT_DIR$/img/Class_Distance.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Class_Invocation.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Class_Mage.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Class_Melee.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rôle.html" afterDir="false" />
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Commencer page Rôle">
+      <change afterPath="$PROJECT_DIR$/intro_guide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rôle.html" beforeDir="false" afterPath="$PROJECT_DIR$/rôle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -64,7 +63,7 @@
     "last_opened_file_path": "C:/Users/vogtcol/WebstormProjects/Atelier HTML-CSS/img",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,17 +73,17 @@
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\Video" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\js" />
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\img" />
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\Video" />
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\fonts" />
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS" />
-      <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\css" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.31033.133" />
       </set>
     </attachedChunks>
   </component>
@@ -98,7 +97,9 @@
       <workItem from="1769768166721" duration="3185000" />
       <workItem from="1769780425814" duration="12000" />
       <workItem from="1770967650897" duration="9708000" />
-      <workItem from="1770984340346" duration="12890000" />
+      <workItem from="1770984340346" duration="12917000" />
+      <workItem from="1771099898013" duration="794000" />
+      <workItem from="1773405594817" duration="3608000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -164,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770995407860</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commencer page Rôle">
+      <option name="closed" value="true" />
+      <created>1770997510957</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770997510958</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +187,7 @@
     <MESSAGE value="Fini l'introduction et commencer l'explication du jeux" />
     <MESSAGE value="Fini l'accueil" />
     <MESSAGE value="Vraiment Fini la page d'accueil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vraiment Fini la page d'accueil" />
+    <MESSAGE value="Commencer page Rôle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commencer page Rôle" />
   </component>
 </project>

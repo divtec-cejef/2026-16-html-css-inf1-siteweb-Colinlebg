@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Mis la photo du header au milleux">
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Ajouter la video">
+      <change afterPath="$PROJECT_DIR$/boss_hardmode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/combats_pre-hardmode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debut_hardmode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debuter_une_partie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exploration_et_progression.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fin_du_jeux.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/CreationPersonnage.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/optimisation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passage_au_hardmode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/progression_avancee.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/intro_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro_guide.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/role.html" afterDir="false" />
     </list>
@@ -17,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,8 +70,10 @@
     "javascript.preferred.runtime.type.id": "node",
     "last_opened_file_path": "C:/Users/vogtcol/WebstormProjects/Atelier HTML-CSS/img",
     "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "web-ide.project.structure",
+    "settings.editor.selected.configurable": "org.intellij.featuresSuggester.FeatureSuggesterConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,7 +109,8 @@
       <workItem from="1770967650897" duration="9708000" />
       <workItem from="1770984340346" duration="12917000" />
       <workItem from="1771099898013" duration="794000" />
-      <workItem from="1773405594817" duration="6783000" />
+      <workItem from="1773405594817" duration="6856000" />
+      <workItem from="1773650897090" duration="3485000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -196,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773410102262</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ajouter la video">
+      <option name="closed" value="true" />
+      <created>1773412892201</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1773412892202</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +234,7 @@
     <MESSAGE value="Ajouter le menu" />
     <MESSAGE value="Ajouter les lien pour le menu" />
     <MESSAGE value="Mis la photo du header au milleux" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mis la photo du header au milleux" />
+    <MESSAGE value="Ajouter la video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajouter la video" />
   </component>
 </project>

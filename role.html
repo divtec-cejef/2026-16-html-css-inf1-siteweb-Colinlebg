@@ -8,15 +8,15 @@
   <meta name="description" content="Guide complet de Terraria.">
   <link rel="stylesheet" href="css/normalize.css"/>
   <link rel="stylesheet" href="css/main.css"/>
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="./site.webmanifest">
 </head>
 <body class="Page-role">
 
 <header>
-  <img src="./img/HD-Terraria-Logo.webp" alt="Logo de Terraria" class="Logo" height="80px"/>
+  <img src="./img/HD-Terraria-Logo.webp" alt="Logo de Terraria" class="Logo"/>
 </header>
 
 <main>
@@ -25,73 +25,91 @@
   <div class="Box-gris-foncee">
     <div class="introduction">
       <h1>Les rôles</h1>
-      <p>Dans Terraria, il n'existe pas de classes imposées. Votre rôle dépend entièrement de votre équipement,
-        de vos armes et de votre style de jeu. Chaque rôle possède ses forces,
-        ses faiblesses et une manière unique d'aborder les combats.</p>
+      <p>Dans Terraria, il n'existe pas de classes imposées.
+        Votre rôle dépend entièrement de votre équipement, de vos armes et de votre style de jeu.
+        Chaque rôle possède ses forces, ses faiblesses et une manière unique d'aborder les combats.</p>
     </div>
   </div>
 
   <!-- Mêlée -->
-  <div class="Box-jaune">
-    <h1>Mêlée</h1>
-    <p>Le rôle <strong>Mêlée</strong> est basé sur la <strong>résistance</strong>, les dégâts rapprochés
-      et la survie. Il utilise principalement des <strong>épées, lances, yoyos</strong> et armes lourdes.</p>
-    <ul>
-      <li>Très grande défense</li>
-      <li>Idéal pour encaisser les dégâts</li>
-      <li>Parfait pour les débutants</li>
-      <li>Excellent en <strong>combat direct</strong> contre les boss</li>
-    </ul>
-    <p>Le Mêlée est souvent en première ligne, certaine armure le rend plus <strong>vulnérable</strong>
-      d'être cibler par les ennemies ce qui permet aux autres rôles de ne pas être attaqués
-      et peut survivre là où les autres classes auraient du mal.</p>
+  <div class="Box-role Box-role--jaune">
+    <div class="Box-role__banniere">
+      <img src="./img/Class_Melee.webp" alt="Bannière Mêlée" class="Box-role__img"/>
+      <h1 class="Box-role__titre">Mêlée</h1>
+    </div>
+    <div class="Box-role__contenu">
+      <p>Le rôle <strong>Mêlée</strong> est basé sur la <strong>résistance</strong>, les <strong>dégâts rapprochés</strong>
+        et la survie. Il utilise principalement des <strong>épées, yoyos</strong> et armes <strong>lourdes</strong>.</p>
+      <ul>
+        <li>Très grande défense</li>
+        <li>Idéal pour <strong>encaisser</strong> les dégâts</li>
+        <li>Parfait pour les <strong>débutants</strong></li>
+        <li>Excellent en <strong>combat</strong> direct contre les boss</li>
+      </ul>
+      <p>Le <strong>Mêlée</strong> est souvent en première ligne, certaine armure le rend plus
+        <strong>vulnérable</strong> d'être <strong>cibler</strong> par les ennemies ce qui permet au autre rôle de
+        ne pas être <strong>attaqué</strong> et peut survivre là où les autres classes auraient du mal.</p>
+    </div>
   </div>
 
   <!-- Mage -->
-  <div class="Box-violet">
-    <h1>Mage</h1>
-    <p>Le <strong>Mage</strong> utilise le <strong>mana</strong> pour lancer des sorts puissants à distance.
-      Il inflige d'<strong>énormes dégâts</strong>, mais reste fragile sans protection.</p>
-    <ul>
-      <li>Dégâts magiques élevés</li>
-      <li>Large variété de sorts</li>
-      <li><strong>Gestion</strong> importante du mana</li>
-      <li>Faible défense</li>
-    </ul>
-    <p>Le Mage excelle contre les groupes d'ennemis et les boss à distance,
-      mais demande une <strong>bonne préparation</strong>.</p>
+  <div class="Box-role Box-role--violet">
+    <div class="Box-role__banniere">
+      <img src="./img/Class_Mage.webp" alt="Bannière Mage" class="Box-role__img"/>
+      <h1 class="Box-role__titre">Mage</h1>
+    </div>
+    <div class="Box-role__contenu">
+      <p>Le <strong>Mage</strong> utilise le <strong>mana</strong> pour lancer des sorts puissants à distance.
+        Il inflige d'<strong>énormes dégâts</strong>, mais reste fragile sans protection.</p>
+      <ul>
+        <li><strong>Dégâts</strong> magiques élevés</li>
+        <li><strong>Large</strong> variété de sorts</li>
+        <li><strong>Gestion</strong> importante de la mana</li>
+        <li><strong>Faible défense</strong></li>
+      </ul>
+      <p>Le <strong>Mage</strong> excelle contre les groupes d'ennemis et les boss à distance, mais
+        demande une <strong>bonne préparation</strong>.</p>
+    </div>
   </div>
 
   <!-- Distance -->
-  <div class="Box-verte">
-    <div class="Description">
-      <h1>Distance</h1>
-      <p>La classe <strong>Distance</strong> se concentre sur les armes à projectiles :
-        <strong>arcs, fusils, lance-grenades</strong> et armes technologiques.</p>
+  <div class="Box-role Box-role--vert">
+    <div class="Box-role__banniere">
+      <img src="./img/Class_Distance.webp" alt="Bannière Distance" class="Box-role__img"/>
+      <h1 class="Box-role__titre">Distance</h1>
+    </div>
+    <div class="Box-role__contenu">
+      <p>La classe <strong>Distance</strong> se concentre sur les armes à projectiles : <strong>arcs, fusils,
+        lance-grenades et armes technologiques</strong>.</p>
       <ul>
-        <li>Dégâts constants à longue portée</li>
+        <li><strong>Dégâts constants</strong> à longue portée</li>
         <li>Grande mobilité</li>
         <li>Dépend fortement des <strong>munitions</strong></li>
-        <li>Très efficace en <em>kite fight</em></li>
+        <li>Très <strong>efficace</strong> en boss fight</li>
       </ul>
-      <p>La Distance est idéal pour <strong>attaquer sans s'exposer</strong>,
-        tout en restant très mobile.</p>
+      <p>Le <strong>Distance</strong> est idéal pour <strong>attaquer sans s'exposer</strong>,
+        tout en restant très polyvalent.</p>
     </div>
   </div>
 
   <!-- Invocation -->
-  <div class="Box-noir">
-    <h1>Invocation</h1>
-    <p>Le rôle <strong>Invocation</strong> repose sur l'utilisation de <strong>sbires</strong> et de
-      <strong>sentinelles</strong> qui combattent automatiquement.</p>
-    <ul>
-      <li>Combat indirect</li>
-      <li>Très bonne défense</li>
-      <li>Gameplay stratégique</li>
-      <li><strong>Synergie</strong> avec les autres classes</li>
-    </ul>
-    <p>Le <em>Summoner</em> est puissant mais exigeant,
-      recommandé aux joueurs expérimentés.</p>
+  <div class="Box-role Box-role--gris">
+    <div class="Box-role__banniere">
+      <img src="./img/Class_Invocation.webp" alt="Bannière Invocation" class="Box-role__img"/>
+      <h1 class="Box-role__titre">Invocation</h1>
+    </div>
+    <div class="Box-role__contenu">
+      <p>Le rôle <strong>Invocation</strong> repose sur l'utilisation de <strong>sbires</strong> et de
+        <strong>sentinelles</strong> qui combattent automatiquement.</p>
+      <ul>
+        <li>Combat indirect</li>
+        <li>Très peu de <strong>défense</strong></li>
+        <li>Gameplay <strong>stratégique</strong></li>
+        <li><strong>Synergie</strong> avec les autres classes</li>
+      </ul>
+      <p>Le <strong>Summoner</strong> est puissant mais exigeant, recommandé aux joueurs
+        <strong>expérimentés</strong>.</p>
+    </div>
   </div>
 
 </main>

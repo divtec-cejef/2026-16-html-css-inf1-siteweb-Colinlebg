@@ -51,7 +51,7 @@ a:hover {
 
 header {
     position: fixed;
-    top: 10px;
+    top: 0;
     left: 0;
     width: 100%;
     display: flex;
@@ -71,6 +71,7 @@ header img {
    ============================================= */
 
 .Box-gris-foncee,
+.Box-gris-claire,
 .Box-verte,
 .Box-jaune,
 .Box-violet,
@@ -81,6 +82,7 @@ header img {
 }
 
 .Box-gris-foncee h1,
+.Box-gris-claire h1,
 .Box-verte h1,
 .Box-jaune h1,
 .Box-violet h1,
@@ -93,6 +95,7 @@ header img {
 }
 
 .Box-gris-foncee ul,
+.Box-gris-claire ul,
 .Box-verte ul,
 .Box-jaune ul,
 .Box-violet ul,
@@ -102,6 +105,7 @@ header img {
 }
 
 .Box-gris-foncee li,
+.Box-gris-claire li,
 .Box-verte li,
 .Box-jaune li,
 .Box-violet li,
@@ -126,6 +130,15 @@ header img {
     width: auto;
 }
 
+.Debut-partie .Box-gris-foncee img {
+    border-radius: 20px;
+}
+
+.Box-gris-claire {
+    background-color: #D3D3D3;
+    color: #000000;
+}
+
 .Box-verte {
     background-color: #2E7D32;
     color: #FFFFFF;
@@ -133,6 +146,8 @@ header img {
 
 .Box-verte video {
     max-width: 100%;
+    width: 100%;
+    border-radius: 12px;
 }
 
 .Box-jaune {
@@ -141,8 +156,8 @@ header img {
 }
 
 .Box-violet {
-    background-color: #6A0DAD;
-    color: #FFFFFF;
+    background-color: #6A1B9A;
+    color: #D3D3D3;
 }
 
 .Box-noir {
@@ -150,17 +165,52 @@ header img {
     color: #FFFFFF;
 }
 
-
 /* =============================================
    VIDEO PLACEHOLDER
    ============================================= */
 
-.video-placeholder video {
-    max-width: 100%;
-    width: 100%;
+.video-placeholder {
+    height: 200px;
     border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
 }
 
+.video-placeholder p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111;
+}
+
+/* =============================================
+   BOUTON PASSER À LA SUITE
+   ============================================= */
+
+.btn-suite {
+    display: block;
+    background-color: #2E7D32;
+    color: #fff !important;
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 20px auto 10px;
+    width: 100%;
+    line-height: 1.3;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-suite:hover {
+    background-color: #1b5e20;
+    color: #fff !important;
+    transform: scale(1.02);
+}
 
 /* =============================================
    TABLEAU GUIDE
@@ -183,14 +233,115 @@ header img {
 }
 
 .tableau-guide td {
-    padding: 10px 14px;
+    padding: 0;
     border: 1px solid #ccc;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255,255,255,0.6);
     color: #111;
 }
 
 .tableau-guide tr:nth-child(even) td {
-    background-color: rgba(255, 255, 240, 0.8);
+    background-color: rgba(255,255,240,0.8);
+}
+
+.tableau-guide td a {
+    display: block;
+    padding: 10px 14px;
+    color: #111;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.tableau-guide td a:hover {
+    background-color: #2E7D32;
+    color: #fff;
+    font-weight: 700;
+}
+
+.tableau-guide td:last-child {
+    padding: 10px 14px;
+}
+
+/* =============================================
+   BOXES ROLES - bannière image + titre superposé
+   ============================================= */
+
+.Box-role {
+    border-radius: 25px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.Box-role__banniere {
+    position: relative;
+    width: 100%;
+    height: 160px;
+}
+
+.Box-role__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.Box-role__titre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px  2px 0 #000,
+            2px  2px 0 #000,
+            0px  3px 8px rgba(0,0,0,0.7);
+}
+
+.Box-role__contenu {
+    padding: 20px 30px 24px;
+}
+
+.Box-role__contenu p {
+    margin-bottom: 12px;
+}
+
+.Box-role__contenu ul {
+    padding-left: 20px;
+    margin: 10px 0 12px;
+}
+
+.Box-role__contenu li {
+    margin-bottom: 6px;
+}
+
+.Box-role--jaune {
+    background-color: #F7F3BB;
+    color: #000;
+}
+
+.Box-role--violet {
+    background-color: #3a006f;
+    color: #fff;
+}
+
+.Box-role--vert {
+    background-color: #2E7D32;
+    color: #fff;
+}
+
+.Box-role--gris {
+    background-color: #424242;
+    color: #D3D3D3;
 }
 
 /* =============================================
@@ -232,19 +383,19 @@ footer .reseau-sociaux {
     justify-content: center;
     align-items: flex-start;
     padding-top: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
     z-index: 2000;
     cursor: pointer;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .cercle-fixe:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 .cercle-fixe.ouvert {
     border-color: #2E7D32;
-    box-shadow: 0 0 0 4px rgba(46, 125, 50, 0.3);
+    box-shadow: 0 0 0 4px rgba(46,125,50,0.3);
 }
 
 .cercle-fixe img {
@@ -255,23 +406,21 @@ footer .reseau-sociaux {
 
 /* =============================================
    MENU FLOTTANT - descend du haut
-   justify-content: flex-start + padding-top
-   pour pousser les boutons vers le haut
    ============================================= */
 
 .menu-flottant {
     position: fixed;
-    top: 50px;
+    top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* ← boutons poussés vers le haut */
+    justify-content: flex-start;
     align-items: center;
     gap: 12px;
-    padding: 100px 20px 20px; /* ← 100px depuis le haut pour laisser place au logo */
+    padding: 100px 20px 20px;
     z-index: 1500;
 
     transform: translateY(-100%);
@@ -293,13 +442,13 @@ footer .reseau-sociaux {
     background-color: #D3D3D3;
     color: #111 !important;
     font-family: 'Comic Neue', 'Comic Sans MS', cursive;
-    font-size: 28px;
+    font-size: 34px;
     font-weight: 700;
     text-decoration: none;
-    padding: 18px 0;
+    padding: 26px 0;
     border-radius: 50px;
     border: 2px solid #555;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
     white-space: nowrap;
     transition: background-color 0.2s ease, transform 0.1s ease;
     width: 100%;

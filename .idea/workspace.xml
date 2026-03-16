@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Commencer le Tuto">
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Fini la page debuter une partie et exploration_et_progression.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combats_pre-hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/combats_pre-hardmode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debuter_une_partie.html" beforeDir="false" afterPath="$PROJECT_DIR$/debuter_une_partie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploration_et_progression.html" beforeDir="false" afterPath="$PROJECT_DIR$/exploration_et_progression.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro_guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/role.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +99,8 @@
       <workItem from="1771099898013" duration="794000" />
       <workItem from="1773405594817" duration="6856000" />
       <workItem from="1773650897090" duration="3685000" />
-      <workItem from="1773663278384" duration="5746000" />
+      <workItem from="1773663278384" duration="6273000" />
+      <workItem from="1773669860694" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -219,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773655444664</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fini la page debuter une partie et exploration_et_progression.html">
+      <option name="closed" value="true" />
+      <created>1773669117486</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1773669117486</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +242,7 @@
     <MESSAGE value="Mis la photo du header au milleux" />
     <MESSAGE value="Ajouter la video" />
     <MESSAGE value="Commencer le Tuto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commencer le Tuto" />
+    <MESSAGE value="Fini la page debuter une partie et exploration_et_progression.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fini la page debuter une partie et exploration_et_progression.html" />
   </component>
 </project>

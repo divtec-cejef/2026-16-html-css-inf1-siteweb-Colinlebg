@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil | Guide complet de Terraria!</title>
+    <meta name="author" content="Colin Vogt">
+    <meta name="description" content="Guide complet de Terraria.">
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
 </head>
-<body>
+<body class="exploration">
+<header>
+    <img src="./img/HD-Terraria-Logo.webp" alt="Logo de Terraria" class="Logo"/>
+</header>
 
+<main>
+
+</main>
+<footer>
+    <nav class="reseau-sociaux">
+        <a href="" target="_blank" rel="noopener noreferrer">
+            <img src="./img/logo_discord.png" alt="Logo de discord" width="60" height="60"/>
+        </a>
+        <a href="https://www.youtube.com/@Colpome" target="_blank" rel="noopener noreferrer">
+            <img src="./img/Logo_youtube.png" alt="Logo de Youtube" width="75" height="50"/>
+        </a>
+        <a href="https://www.twitch.tv/colpome" target="_blank" rel="noopener noreferrer">
+            <img src="./img/Logo_twitch.png" alt="Logo de Twitch" width="60" height="70"/>
+        </a>
+    </nav>
+    &copy;2026 Colin Vogt
+</footer>
+
+<!-- Menu navigation flottant -->
+<div class="cercle-fixe" id="cercle-menu" onclick="toggleMenu()">
+    <img src="./img/Arbre_Terraria.png" alt="Ouvrir le menu de navigation"/>
+</div>
+
+<nav class="menu-flottant" id="menu-flottant">
+    <a href="index.html" class="menu-btn">Accueil</a>
+    <a href="role.html" class="menu-btn">Rôle</a>
+    <a href="intro_guide.html" class="menu-btn">Guide du jeux</a>
+    <a href="https://terraria.wiki.gg/" class="menu-btn" target="_blank" rel="noopener noreferrer">Wiki</a>
+    <a href="https://store.steampowered.com/app/105600/Terraria/" class="menu-btn" target="_blank" rel="noopener noreferrer">Jouer</a>
+</nav>
+
+<script src="js/menu.js"></script>
 </body>
 </html>

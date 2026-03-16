@@ -130,15 +130,6 @@ header img {
     width: auto;
 }
 
-.Debut-partie .Box-gris-foncee img {
-    border-radius: 20px;
-}
-
-.Box-gris-claire {
-    background-color: #D3D3D3;
-    color: #000000;
-}
-
 .Box-verte {
     background-color: #2E7D32;
     color: #FFFFFF;
@@ -152,17 +143,23 @@ header img {
 
 .Box-jaune {
     background-color: #F7F3BB;
-    color: #000000;
+    color: #424242;
 }
 
 .Box-violet {
-    background-color: #6A1B9A;
+    background-color: #6A0DAD;
     color: #D3D3D3;
 }
 
 .Box-noir {
     background-color: #000000;
-    color: #FFFFFF;
+    color: #D3D3D3;
+}
+
+.Box-gris-claire {
+    background-color: #D3D3D3;
+    color: #424242;
+
 }
 
 /* =============================================
@@ -366,7 +363,7 @@ footer .reseau-sociaux {
 }
 
 /* =============================================
-   CERCLE FLOTTANT
+   CERCLE FLOTTANT - toujours centré
    ============================================= */
 
 .cercle-fixe {
@@ -422,7 +419,6 @@ footer .reseau-sociaux {
     gap: 12px;
     padding: 100px 20px 20px;
     z-index: 1500;
-
     transform: translateY(-100%);
     transition: transform 0.4s ease;
     pointer-events: none;
@@ -473,4 +469,41 @@ footer .reseau-sociaux {
 
 .menu-overlay {
     display: none;
+}
+
+/* =============================================
+   GRAND ÉCRAN - 2 colonnes (1024px et plus)
+   ============================================= */
+
+@media (min-width: 1024px) {
+
+    body {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 0 20px;
+        align-items: start;
+    }
+
+    /* Pleine largeur pour la première box et le footer */
+    main > *:first-child,
+    main > footer {
+        grid-column: 1 / -1;
+    }
+
+    footer {
+        grid-column: 1 / -1;
+    }
+
+    /* Boutons du menu un peu plus petits sur grand écran */
+    .menu-btn {
+        font-size: 26px;
+        padding: 20px 0;
+    }
+
 }

@@ -78,7 +78,7 @@ header img {
 .Box-noir {
     border-radius: 25px;
     padding: 0 40px 20px;
-    margin: 20px 0;
+    margin: 40px auto;
 }
 
 .Box-gris-foncee h1,
@@ -89,6 +89,19 @@ header img {
 .Box-noir h1 {
     padding-top: 20px;
     font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.Box-gris-foncee h2,
+.Box-gris-claire h2,
+.Box-verte h2,
+.Box-jaune h2,
+.Box-violet h2,
+.Box-noir h2 {
+    padding-top: 20px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 16px;
@@ -123,11 +136,16 @@ header img {
     margin-top: 110px;
 }
 
-.Box-gris-foncee img {
+.Box-gris-foncee img.banniere {
     border-radius: 100px;
     max-width: 100%;
     height: auto;
     width: auto;
+}
+
+.Box-gris-claire {
+    background-color: #D3D3D3;
+    color: #000000;
 }
 
 .Box-verte {
@@ -143,23 +161,78 @@ header img {
 
 .Box-jaune {
     background-color: #F7F3BB;
-    color: #424242;
+    color: #000000;
 }
 
 .Box-violet {
-    background-color: #6A0DAD;
-    color: #D3D3D3;
+    background-color: #6A1B9A;
+    color: #FFFFFF;
 }
 
 .Box-noir {
-    background-color: #000000;
+    background-color: #111111;
     color: #D3D3D3;
 }
 
-.Box-gris-claire {
-    background-color: #D3D3D3;
-    color: #424242;
+/* =============================================
+   BOSS HEADER - titre + icône côte à côte
+   ============================================= */
 
+.boss-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-bottom: 16px;
+}
+
+.boss-header h2 {
+    padding-top: 0;
+    margin-bottom: 0;
+    flex: 1;
+}
+
+.boss-icon {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* =============================================
+   LISTE DES BOSS avec icônes
+   ============================================= */
+
+.liste-boss {
+    list-style: none;
+    padding-left: 0;
+}
+
+.liste-boss li {
+    margin-bottom: 10px;
+}
+
+.liste-boss a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #111 !important;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.liste-boss a:hover {
+    color: #2E7D32 !important;
+    font-weight: 700;
+}
+
+.liste-boss img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
 }
 
 /* =============================================
@@ -363,8 +436,12 @@ footer .reseau-sociaux {
 }
 
 /* =============================================
-   CERCLE FLOTTANT - toujours centré
+   MENU CSS PUR - checkbox cachée
    ============================================= */
+
+#toggle-menu {
+    display: none;
+}
 
 .cercle-fixe {
     position: fixed;
@@ -390,7 +467,7 @@ footer .reseau-sociaux {
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-.cercle-fixe.ouvert {
+#toggle-menu:checked ~ .cercle-fixe {
     border-color: #2E7D32;
     box-shadow: 0 0 0 4px rgba(46,125,50,0.3);
 }
@@ -400,10 +477,6 @@ footer .reseau-sociaux {
     height: 80px;
     object-fit: contain;
 }
-
-/* =============================================
-   MENU FLOTTANT - descend du haut
-   ============================================= */
 
 .menu-flottant {
     position: fixed;
@@ -424,7 +497,7 @@ footer .reseau-sociaux {
     pointer-events: none;
 }
 
-.menu-flottant.visible {
+#toggle-menu:checked ~ .menu-flottant {
     transform: translateY(0);
     pointer-events: all;
 }
@@ -464,14 +537,6 @@ footer .reseau-sociaux {
 }
 
 /* =============================================
-   OVERLAY (gardé pour compatibilité JS)
-   ============================================= */
-
-.menu-overlay {
-    display: none;
-}
-
-/* =============================================
    GRAND ÉCRAN - 2 colonnes (1024px et plus)
    ============================================= */
 
@@ -490,17 +555,11 @@ footer .reseau-sociaux {
         align-items: start;
     }
 
-    /* Pleine largeur pour la première box et le footer */
     main > *:first-child,
-    main > footer {
-        grid-column: 1 / -1;
-    }
-
     footer {
         grid-column: 1 / -1;
     }
 
-    /* Boutons du menu un peu plus petits sur grand écran */
     .menu-btn {
         font-size: 26px;
         padding: 20px 0;

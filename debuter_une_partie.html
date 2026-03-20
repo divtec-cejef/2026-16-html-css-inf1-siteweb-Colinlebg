@@ -126,13 +126,17 @@
     &copy;2026 Colin Vogt
 </footer>
 
-<!-- Menu navigation flottant -->
-<div class="cercle-fixe" id="cercle-menu" onclick="toggleMenu()">
-    <img src="./img/Arbre_Terraria.png" alt="Ouvrir le menu de navigation"/>
-</div>
+<!-- Checkbox cachée qui contrôle le menu -->
+<input type="checkbox" id="toggle-menu"/>
 
-<nav class="menu-flottant" id="menu-flottant">
-    <a href="index.html" class="menu-btn">Accueil</a>
+<!-- Cercle avec l'arbre = label cliquable -->
+<label for="toggle-menu" class="cercle-fixe">
+    <img src="./img/Arbre_Terraria.png" alt="Ouvrir le menu de navigation"/>
+</label>
+
+<!-- Menu -->
+<nav class="menu-flottant">
+    <a href="index.html" class="menu-btn actif">Accueil</a>
     <a href="role.html" class="menu-btn">Rôle</a>
     <a href="intro_guide.html" class="menu-btn">Guide du jeux</a>
     <a href="https://terraria.wiki.gg/" class="menu-btn" target="_blank" rel="noopener noreferrer">Wiki</a>

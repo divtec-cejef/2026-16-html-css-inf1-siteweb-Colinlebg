@@ -1,34 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Commencer la page combats_pre-hardmode.html">
-      <change afterPath="$PROJECT_DIR$/img/adepte_lunatique.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cerveaux_de_cthulhu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cyclope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/duc_poisson.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/golem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/imperatrice_lumiere.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jumeaux.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/le_destructeur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/le_devoreur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mur_de_chaire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/oeuil_de_cthulhu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/plantera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reine_des_abeille.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reine_des_slime.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/roi_slime.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/seigneur_de_la_lune.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/skeletron.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/skeletron_prime.png" afterDir="false" />
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Fini page combats_pre-hardmode.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combats_pre-hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/combats_pre-hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boss_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/boss_hardmode.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debuter_une_partie.html" beforeDir="false" afterPath="$PROJECT_DIR$/debuter_une_partie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploration_et_progression.html" beforeDir="false" afterPath="$PROJECT_DIR$/exploration_et_progression.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro_guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/role.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debut_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/debut_hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progression_avancee.html" beforeDir="false" afterPath="$PROJECT_DIR$/progression_avancee.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,25 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Terraria-Guide&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vogtcol/WebstormProjects/Atelier HTML-CSS/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.intellij.featuresSuggester.FeatureSuggesterConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "Terraria-Guide",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "C:/Users/vogtcol/WebstormProjects/Atelier HTML-CSS/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\img" />
@@ -128,7 +106,7 @@
       <workItem from="1773663278384" duration="6273000" />
       <workItem from="1773669860694" duration="2023000" />
       <workItem from="1773731856277" duration="411000" />
-      <workItem from="1774009912200" duration="3316000" />
+      <workItem from="1774009912200" duration="5857000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -258,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773672302491</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fini page combats_pre-hardmode.html">
+      <option name="closed" value="true" />
+      <created>1774014161345</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1774014161345</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +266,7 @@
     <MESSAGE value="Commencer le Tuto" />
     <MESSAGE value="Fini la page debuter une partie et exploration_et_progression.html" />
     <MESSAGE value="Commencer la page combats_pre-hardmode.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commencer la page combats_pre-hardmode.html" />
+    <MESSAGE value="Fini page combats_pre-hardmode.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fini page combats_pre-hardmode.html" />
   </component>
 </project>

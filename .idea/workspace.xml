@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Fini la page boss_hardmode.html">
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Fini la page progression_avancee.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boss_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/boss_hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debut_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/debut_hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimisation.html" beforeDir="false" afterPath="$PROJECT_DIR$/optimisation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/progression_avancee.html" beforeDir="false" afterPath="$PROJECT_DIR$/progression_avancee.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +110,7 @@
       <workItem from="1773669860694" duration="2023000" />
       <workItem from="1773731856277" duration="411000" />
       <workItem from="1774009912200" duration="6092000" />
-      <workItem from="1774267461385" duration="2203000" />
+      <workItem from="1774267461385" duration="4135000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -253,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774017472405</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fini la page progression_avancee.html">
+      <option name="closed" value="true" />
+      <created>1774269709208</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1774269709208</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +288,7 @@
     <MESSAGE value="Commencer la page combats_pre-hardmode.html" />
     <MESSAGE value="Fini page combats_pre-hardmode.html" />
     <MESSAGE value="Fini la page boss_hardmode.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fini la page boss_hardmode.html" />
+    <MESSAGE value="Fini la page progression_avancee.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fini la page progression_avancee.html" />
   </component>
 </project>

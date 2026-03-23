@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Fini la page progression_avancee.html">
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Fini la page optimisation.html">
+      <change afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boss_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/boss_hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combats_pre-hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/combats_pre-hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debut_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/debut_hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debuter_une_partie.html" beforeDir="false" afterPath="$PROJECT_DIR$/debuter_une_partie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exploration_et_progression.html" beforeDir="false" afterPath="$PROJECT_DIR$/exploration_et_progression.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fin_du_jeux.html" beforeDir="false" afterPath="$PROJECT_DIR$/fin_du_jeux.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro_guide.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/optimisation.html" beforeDir="false" afterPath="$PROJECT_DIR$/optimisation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passage_au_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/passage_au_hardmode.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/progression_avancee.html" beforeDir="false" afterPath="$PROJECT_DIR$/progression_avancee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/role.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -110,7 +120,7 @@
       <workItem from="1773669860694" duration="2023000" />
       <workItem from="1773731856277" duration="411000" />
       <workItem from="1774009912200" duration="6092000" />
-      <workItem from="1774267461385" duration="4135000" />
+      <workItem from="1774267461385" duration="8734000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -264,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774269709208</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fini la page optimisation.html">
+      <option name="closed" value="true" />
+      <created>1774271880666</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1774271880666</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +307,7 @@
     <MESSAGE value="Fini page combats_pre-hardmode.html" />
     <MESSAGE value="Fini la page boss_hardmode.html" />
     <MESSAGE value="Fini la page progression_avancee.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fini la page progression_avancee.html" />
+    <MESSAGE value="Fini la page optimisation.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fini la page optimisation.html" />
   </component>
 </project>

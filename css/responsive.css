@@ -1,0 +1,28 @@
+/********** GRAND ÉCRAN - 2 colonnes (1024px et plus) **********/
+
+@media (min-width: 1024px) {
+
+    body {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 0 20px;
+        align-items: start;
+    }
+
+    main > *:first-child,
+    footer {
+        grid-column: 1 / -1;
+    }
+
+    .menu-btn {
+        font-size: 26px;
+        padding: 20px 0;
+    }
+
+}

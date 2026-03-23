@@ -1,6 +1,6 @@
-/* =============================================
+/* ========================================
    FONTS
-   ============================================= */
+   ======================================== */
 
 @font-face {
     font-display: swap;
@@ -10,9 +10,7 @@
     src: url('../fonts/comic-neue-v9-latin-regular.woff2') format('woff2');
 }
 
-/* =============================================
-   RESET & BASE
-   ============================================= */
+/********** RESET & BASE **********/
 
 * {
     box-sizing: border-box;
@@ -45,9 +43,7 @@ a:hover {
     color: darkmagenta;
 }
 
-/* =============================================
-   HEADER - centré
-   ============================================= */
+/********** HEADER - centré **********/
 
 header {
     position: fixed;
@@ -66,9 +62,7 @@ header img {
     pointer-events: all;
 }
 
-/* =============================================
-   BOXES - STYLES COMMUNS
-   ============================================= */
+/********** BOXES - STYLES COMMUNS **********/
 
 .Box-gris-foncee,
 .Box-gris-claire,
@@ -149,9 +143,7 @@ header img {
     margin-bottom: 8px;
 }
 
-/* =============================================
-   BOXES - COULEURS
-   ============================================= */
+/********** BOXES - COULEURS **********/
 
 .Box-gris-foncee {
     background-color: #424242;
@@ -199,12 +191,9 @@ header img {
     color: #D3D3D3;
 }
 
-/* =============================================
-   VIDEO PLACEHOLDER
-   ============================================= */
+/********** VIDEO PLACEHOLDER **********/
 
 .video-placeholder {
-    height: 200px;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -218,9 +207,7 @@ header img {
     color: #111;
 }
 
-/* =============================================
-   BOUTON PASSER À LA SUITE
-   ============================================= */
+/********** BOUTON PASSER À LA SUITE **********/
 
 .btn-suite {
     display: block;
@@ -246,9 +233,7 @@ header img {
     transform: scale(1.02);
 }
 
-/* =============================================
-   TABLEAU GUIDE
-   ============================================= */
+/********** TABLEAU GUIDE **********/
 
 .tableau-guide {
     width: 100%;
@@ -297,9 +282,7 @@ header img {
     padding: 10px 14px;
 }
 
-/* =============================================
-   BOXES ROLES - bannière image + titre superposé
-   ============================================= */
+/********** BOXES ROLES - bannière image + titre superposé **********/
 
 .Box-role {
     border-radius: 25px;
@@ -363,9 +346,7 @@ header img {
 .Box-role--vert { background-color: #2E7D32; color: #fff; }
 .Box-role--gris { background-color: #424242; color: #D3D3D3; }
 
-/* =============================================
-   BOSS HEADER - titre + icône côte à côte
-   ============================================= */
+/********** BOSS HEADER - titre + icône côte à côte **********/
 
 .boss-header {
     display: flex;
@@ -387,12 +368,10 @@ header img {
     height: 36px;
     object-fit: contain;
     flex-shrink: 0;
-    image-rendering: pixelated;   /* ← garde le style pixel art net */
+    image-rendering: pixelated;
 }
 
-/* =============================================
-   LISTE DES BOSS avec icônes
-   ============================================= */
+/********** LISTE DES BOSS avec icônes **********/
 
 .liste-boss {
     list-style: none;
@@ -419,7 +398,6 @@ header img {
     font-weight: 700;
 }
 
-/* ← CORRECTION : taille fixe petite pour les icônes de la liste */
 .liste-boss img {
     width: 24px;
     height: 24px;
@@ -428,9 +406,7 @@ header img {
     image-rendering: pixelated;
 }
 
-/* =============================================
-   FOOTER
-   ============================================= */
+/********** FOOTER **********/
 
 footer {
     text-align: center;
@@ -449,9 +425,7 @@ footer .reseau-sociaux {
     width: 100%;
 }
 
-/* =============================================
-   MENU CSS PUR - checkbox cachée
-   ============================================= */
+/********** MENU CSS PUR - checkbox cachée **********/
 
 #toggle-menu {
     display: none;
@@ -516,9 +490,7 @@ footer .reseau-sociaux {
     pointer-events: all;
 }
 
-/* =============================================
-   BOUTONS DU MENU
-   ============================================= */
+/********** BOUTONS DU MENU **********/
 
 .menu-btn {
     display: block;
@@ -548,35 +520,4 @@ footer .reseau-sociaux {
     background-color: #F7F3BB;
     color: #111 !important;
     border-color: #111;
-}
-
-/* =============================================
-   GRAND ÉCRAN - 2 colonnes (1024px et plus)
-   ============================================= */
-
-@media (min-width: 1024px) {
-
-    body {
-        max-width: 1200px;
-        margin: auto;
-    }
-
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        padding: 0 20px;
-        align-items: start;
-    }
-
-    main > *:first-child,
-    footer {
-        grid-column: 1 / -1;
-    }
-
-    .menu-btn {
-        font-size: 26px;
-        padding: 20px 0;
-    }
-
 }

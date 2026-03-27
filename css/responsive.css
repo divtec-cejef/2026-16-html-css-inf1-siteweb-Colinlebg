@@ -1,28 +1,374 @@
-/********** GRAND ÉCRAN - 2 colonnes (1024px et plus) **********/
+/* =============================================
+   RESPONSIVE.CSS
+   Version desktop - 1024px et plus
+   ============================================= */
 
 @media (min-width: 1024px) {
 
+    /* =============================================
+       BASE & BODY
+       ============================================= */
+
     body {
-        max-width: 1200px;
-        margin: auto;
+        max-width: 1280px;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    /* =============================================
+       HEADER - plus grand, avec fond
+       ============================================= */
+
+    header {
+        background: linear-gradient(to bottom, rgba(0,0,0,0.7) 60%, transparent);
+        padding: 8px 0 20px;
+    }
+
+    header img {
+        height: 110px;
+    }
+
+    /* =============================================
+       NAVIGATION DESKTOP
+       remplace le cercle flottant + menu déroulant
+       par une vraie navbar en haut
+       ============================================= */
+
+    /* Cache le cercle et le menu mobile */
+    #toggle-menu,
+    .cercle-fixe,
+    .menu-flottant {
+        display: none !important;
+    }
+
+    /* Navbar fixe en haut */
+    body::before {
+        content: '';
+        display: block;
+        height: 60px; /* espace pour la navbar */
+    }
+
+    nav.navbar-desktop {
+        display: flex !important;
+    }
+
+    /* =============================================
+       NAVBAR DESKTOP (injectée via HTML ou affichée)
+       On utilise une technique CSS pure :
+       le menu-flottant devient une navbar en haut
+       ============================================= */
+
+    /* On réaffiche le menu comme navbar horizontale */
+    .menu-flottant {
+        display: flex !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 60px !important;
+        background-color: rgba(20, 20, 20, 0.96) !important;
+        backdrop-filter: blur(8px);
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 8px !important;
+        padding: 0 40px !important;
+        transform: none !important;
+        pointer-events: all !important;
+        z-index: 2000 !important;
+        border-bottom: 2px solid rgba(46, 125, 50, 0.5);
+        box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    }
+
+    /* Boutons de la navbar desktop */
+    .menu-btn {
+        font-size: 18px !important;
+        padding: 8px 20px !important;
+        border-radius: 30px !important;
+        border: 2px solid transparent !important;
+        width: auto !important;
+        min-width: unset !important;
+        white-space: nowrap;
+        background-color: transparent !important;
+        color: #D3D3D3 !important;
+        box-shadow: none !important;
+        transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease !important;
+    }
+
+    .menu-btn:hover {
+        background-color: #2E7D32 !important;
+        color: #fff !important;
+        transform: none !important;
+        border-color: #2E7D32 !important;
+    }
+
+    .menu-btn.actif {
+        background-color: #F7F3BB !important;
+        color: #111 !important;
+        border-color: #F7F3BB !important;
+    }
+
+    /* Décale le contenu principal sous la navbar */
+    main {
+        margin-top: 60px;
+    }
+
+    /* =============================================
+       GRILLE 2 COLONNES POUR LE MAIN
+       ============================================= */
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        padding: 24px 32px 60px;
+        align-items: start;
+    }
+
+    /* Éléments pleine largeur */
+    main > .Box-gris-foncee:first-child,
+    main > .Box-gris-claire:last-child,
+    main > .Box-jaune:last-child,
+    main > footer {
+        grid-column: 1 / -1;
+    }
+
+    /* La première box toujours pleine largeur */
+    main > *:first-child {
+        grid-column: 1 / -1;
+    }
+
+    /* =============================================
+       BOUTON "PASSER À LA SUITE"
+       Prend la largeur de 2 colonnes
+       ============================================= */
+
+    /* Le parent du btn-suite prend toute la largeur */
+    .Box-jaune:has(.btn-suite),
+    .Box-gris-claire:has(.btn-suite),
+    .Box-verte:has(.btn-suite) {
+        grid-column: 1 / -1;
+    }
+
+    .btn-suite {
+        display: block;
+        max-width: 500px;
+        margin: 20px auto 10px;
+        font-size: 32px;
+        padding: 24px 60px;
+    }
+
+    /* Bouton retour accueil aussi */
+    main > a.btn-suite {
+        grid-column: 1 / -1;
+        max-width: 500px;
+        margin: 0 auto 20px;
+    }
+
+    /* =============================================
+       BOXES - taille de texte desktop
+       ============================================= */
+
+    .Box-gris-foncee h1,
+    .Box-gris-claire h1,
+    .Box-verte h1,
+    .Box-jaune h1,
+    .Box-violet h1,
+    .Box-noir h1 {
+        font-size: 56px;
+    }
+
+    .Box-gris-foncee h2,
+    .Box-gris-claire h2,
+    .Box-verte h2,
+    .Box-jaune h2,
+    .Box-violet h2,
+    .Box-noir h2 {
+        font-size: 40px;
+    }
+
+    .Box-gris-foncee h3,
+    .Box-gris-claire h3,
+    .Box-verte h3,
+    .Box-jaune h3,
+    .Box-violet h3,
+    .Box-noir h3 {
+        font-size: 28px;
+    }
+
+    /* =============================================
+       BOX ROLES - grille 2x2
+       ============================================= */
+
+    .Box-role {
+        margin: 0;
+    }
+
+    .Box-role__banniere {
+        height: 200px;
+    }
+
+    .Box-role__titre {
+        font-size: 56px;
+    }
+
+    /* =============================================
+       TABLEAU GUIDE - plus grand
+       ============================================= */
+
+    .tableau-guide {
+        font-size: 18px;
+    }
+
+    .tableau-guide th,
+    .tableau-guide td {
+        padding: 14px 20px;
+    }
+
+    /* La box avec le tableau prend toute la largeur */
+    main > .Box-jaune:has(.tableau-guide) {
+        grid-column: 1 / -1;
+    }
+
+    /* =============================================
+       BOSS HEADER - icône plus grande
+       ============================================= */
+
+    .boss-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .liste-boss img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .liste-boss a {
+        font-size: 20px;
+        gap: 14px;
+    }
+
+    /* =============================================
+       VIDEO - plus grande
+       ============================================= */
+
+    .Box-verte video {
+        border-radius: 16px;
+    }
+
+    /* =============================================
+       FOOTER
+       ============================================= */
+
+    footer {
+        grid-column: 1 / -1;
+        border-radius: 25px 25px 0 0;
+        padding: 30px 60px 60px;
+    }
+
+    footer .reseau-sociaux {
+        justify-content: center;
+        gap: 60px;
+    }
+
+    footer .reseau-sociaux a {
+        display: flex;
+        align-items: center;
+    }
+
+    /* =============================================
+       PAGE ACCUEIL - intro + bannière côte à côte
+       ============================================= */
+
+    .Page-accueil main > .Box-gris-foncee:first-child .introduction {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .Page-accueil main > .Box-gris-foncee:first-child .introduction img {
+        grid-column: 2;
+        grid-row: 1 / 4;
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* =============================================
+       PAGE GUIDE - box intro pleine largeur
+       ============================================= */
+
+    .Page-guide main > .Box-gris-foncee:first-child .introduction {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    /* =============================================
+       SCROLLBAR PERSONNALISÉE
+       ============================================= */
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #1a1a1a;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #2E7D32;
+        border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #1b5e20;
+    }
+
+}
+
+/* =============================================
+   TABLETTE - 768px à 1023px
+   ============================================= */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    body {
+        font-size: 19px;
     }
 
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        padding: 0 20px;
+        gap: 16px;
+        padding: 0 16px;
         align-items: start;
     }
 
     main > *:first-child,
+    main > *:last-child,
     footer {
         grid-column: 1 / -1;
     }
 
+    .Box-jaune:has(.btn-suite),
+    .Box-gris-claire:has(.btn-suite),
+    .Box-verte:has(.btn-suite) {
+        grid-column: 1 / -1;
+    }
+
+    main > a.btn-suite {
+        grid-column: 1 / -1;
+    }
+
+    header img {
+        height: 95px;
+    }
+
     .menu-btn {
-        font-size: 26px;
-        padding: 20px 0;
+        font-size: 28px !important;
     }
 
 }

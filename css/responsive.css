@@ -1,13 +1,79 @@
 /* =============================================
    RESPONSIVE.CSS
-   Version desktop - 1024px et plus
+   Breakpoints : tablette (768px+) | desktop (1024px+)
    ============================================= */
+
+
+/********** TABLETTE — 768px à 1023px **********/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    body {
+        font-size: 19px;
+    }
+
+    header img {
+        height: 95px;
+    }
+
+    /* Mise en page deux colonnes avec flexbox */
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 0 16px;
+        align-items: flex-start;
+    }
+
+    /* Toutes les boxes prennent ~50% de la largeur (2 colonnes) */
+    main > .Box-gris-foncee,
+    main > .Box-gris-claire,
+    main > .Box-verte,
+    main > .Box-jaune,
+    main > .Box-violet,
+    main > .Box-noir {
+        flex: 1 1 calc(50% - 8px);
+        min-width: 280px;
+    }
+
+    /* Première et dernière box toujours pleine largeur */
+    main > *:first-child,
+    main > *:last-child {
+        flex: 1 1 100%;
+    }
+
+    /* Box avec bouton "suite" en pleine largeur */
+    .Box-jaune:has(.btn-suite),
+    .Box-gris-claire:has(.btn-suite),
+    .Box-verte:has(.btn-suite) {
+        flex: 1 1 100%;
+    }
+
+    /* Bouton retour accueil */
+    main > a.btn-suite {
+        flex: 1 1 100%;
+    }
+
+    /* Menu mobile : boutons un peu plus petits */
+    .menu-btn {
+        font-size: 28px;
+    }
+
+    /* Cercle de navigation : jaune si la page actuelle est dans le menu */
+    .menu-flottant:has(.menu-btn.actif) ~ .cercle-fixe,
+    #toggle-menu:checked ~ .cercle-fixe {
+        border-color: #F7F3BB;
+        box-shadow: 0 0 0 4px rgba(247, 243, 187, 0.4);
+    }
+
+}
+
+
+/********** DESKTOP — 1024px et plus **********/
 
 @media (min-width: 1024px) {
 
-    /* =============================================
-       BASE & BODY
-       ============================================= */
+    /********** BASE & BODY **********/
 
     body {
         max-width: 1280px;
@@ -15,140 +81,153 @@
         font-size: 20px;
     }
 
-    /* =============================================
-       HEADER - plus grand, avec fond
-       ============================================= */
+
+    /********** HEADER **********/
 
     header {
-        background: linear-gradient(to bottom, rgba(0,0,0,0.7) 60%, transparent);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 60%, transparent);
         padding: 8px 0 20px;
     }
 
     header img {
-        height: 110px;
+        height: 50px;
     }
 
-    /* =============================================
-       NAVIGATION DESKTOP
-       remplace le cercle flottant + menu déroulant
-       par une vraie navbar en haut
-       ============================================= */
 
-    /* Cache le cercle et le menu mobile */
-    #toggle-menu,
-    .cercle-fixe,
+    /********** NAVIGATION — masquer le menu mobile **********/
+
+    /* On cache l'interrupteur checkbox et le cercle cliquable */
+    #toggle-menu {
+        display: none;
+    }
+
+    .cercle-fixe {
+        display: none;
+    }
+
+
+    /********** NAVBAR DESKTOP **********/
+
+    /* Le menu mobile devient une vraie barre de navigation fixe en haut */
     .menu-flottant {
-        display: none !important;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-color: rgba(20, 20, 20, 0.96);
+        backdrop-filter: blur(8px);
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding: 0 40px;
+        transform: none;
+        pointer-events: all;
+        z-index: 2000;
+        border-bottom: 2px solid rgba(46, 125, 50, 0.4);
+        box-shadow: 0 2px 16px rgba(0, 0, 0, 0.45);
     }
 
-    /* Navbar fixe en haut */
+    /* Espace réservé pour ne pas que le contenu passe sous la navbar */
     body::before {
         content: '';
         display: block;
-        height: 60px; /* espace pour la navbar */
+        height: 70px;
     }
 
-    nav.navbar-desktop {
-        display: flex !important;
-    }
 
-    /* =============================================
-       NAVBAR DESKTOP (injectée via HTML ou affichée)
-       On utilise une technique CSS pure :
-       le menu-flottant devient une navbar en haut
-       ============================================= */
+    /********** BOUTONS DE LA NAVBAR **********/
 
-    /* On réaffiche le menu comme navbar horizontale */
-    .menu-flottant {
-        display: flex !important;
-        position: fixed !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 60px !important;
-        background-color: rgba(20, 20, 20, 0.96) !important;
-        backdrop-filter: blur(8px);
-        flex-direction: row !important;
-        justify-content: center !important;
-        align-items: center !important;
-        gap: 8px !important;
-        padding: 0 40px !important;
-        transform: none !important;
-        pointer-events: all !important;
-        z-index: 2000 !important;
-        border-bottom: 2px solid rgba(46, 125, 50, 0.5);
-        box-shadow: 0 2px 12px rgba(0,0,0,0.4);
-    }
-
-    /* Boutons de la navbar desktop */
     .menu-btn {
-        font-size: 18px !important;
-        padding: 8px 20px !important;
-        border-radius: 30px !important;
-        border: 2px solid transparent !important;
-        width: auto !important;
-        min-width: unset !important;
+        font-size: 17px;
+        padding: 8px 22px;
+        border-radius: 30px;
+        border: 2px solid transparent;
+        width: auto;
+        min-width: unset;
         white-space: nowrap;
-        background-color: transparent !important;
-        color: #D3D3D3 !important;
-        box-shadow: none !important;
-        transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease !important;
+        background-color: transparent;
+        color: #D3D3D3;
+        box-shadow: none;
+        transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
     }
 
     .menu-btn:hover {
-        background-color: #2E7D32 !important;
-        color: #fff !important;
-        transform: none !important;
-        border-color: #2E7D32 !important;
+        background-color: #2E7D32;
+        color: #fff;
+        transform: none;
+        border-color: #2E7D32;
     }
 
+    /* Page actuellement visitée : fond jaune clair */
     .menu-btn.actif {
-        background-color: #F7F3BB !important;
-        color: #111 !important;
-        border-color: #F7F3BB !important;
+        background-color: #F7F3BB;
+        color: #111;
+        border-color: #F7F3BB;
     }
 
-    /* Décale le contenu principal sous la navbar */
-    main {
-        margin-top: 60px;
+    /* Petit point lumineux sous le bouton actif */
+    .menu-btn.actif::after {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 6px;
+        background-color: #2E7D32;
+        border-radius: 50%;
+        margin: 3px auto 0;
     }
 
-    /* =============================================
-       GRILLE 2 COLONNES POUR LE MAIN
-       ============================================= */
+
+    /********** MAIN — MISE EN PAGE FLEXBOX **********/
 
     main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
         gap: 24px;
         padding: 24px 32px 60px;
-        align-items: start;
+        align-items: flex-start;
+        margin-top: 0;
     }
 
-    /* Éléments pleine largeur */
-    main > .Box-gris-foncee:first-child,
-    main > .Box-gris-claire:last-child,
-    main > .Box-jaune:last-child,
-    main > footer {
-        grid-column: 1 / -1;
+    /* Toutes les boxes : deux colonnes égales par défaut */
+    main > .Box-gris-foncee,
+    main > .Box-gris-claire,
+    main > .Box-verte,
+    main > .Box-jaune,
+    main > .Box-violet,
+    main > .Box-noir {
+        flex: 1 1 calc(50% - 12px);
+        min-width: 300px;
     }
 
-    /* La première box toujours pleine largeur */
+    /* Première box toujours pleine largeur */
     main > *:first-child {
-        grid-column: 1 / -1;
+        flex: 1 1 100%;
     }
 
-    /* =============================================
-       BOUTON "PASSER À LA SUITE"
-       Prend la largeur de 2 colonnes
-       ============================================= */
-
-    /* Le parent du btn-suite prend toute la largeur */
+    /* Box avec bouton "suite" ou "retour" en pleine largeur */
     .Box-jaune:has(.btn-suite),
     .Box-gris-claire:has(.btn-suite),
     .Box-verte:has(.btn-suite) {
-        grid-column: 1 / -1;
+        flex: 1 1 100%;
     }
+
+    /* Box avec le tableau guide : pleine largeur */
+    .Box-jaune:has(.tableau-guide) {
+        flex: 1 1 100%;
+    }
+
+    /* Bouton retour accueil (lien direct dans le main) */
+    main > a.btn-suite {
+        flex: 1 1 100%;
+        max-width: 500px;
+        margin: 0 auto 20px;
+    }
+
+
+    /********** BOUTON "PASSER À LA SUITE" **********/
 
     .btn-suite {
         display: block;
@@ -158,16 +237,8 @@
         padding: 24px 60px;
     }
 
-    /* Bouton retour accueil aussi */
-    main > a.btn-suite {
-        grid-column: 1 / -1;
-        max-width: 500px;
-        margin: 0 auto 20px;
-    }
 
-    /* =============================================
-       BOXES - taille de texte desktop
-       ============================================= */
+    /********** BOXES — TAILLE DE TEXTE DESKTOP **********/
 
     .Box-gris-foncee h1,
     .Box-gris-claire h1,
@@ -196,11 +267,12 @@
         font-size: 28px;
     }
 
-    /* =============================================
-       BOX ROLES - grille 2x2
-       ============================================= */
+
+    /********** BOX RÔLES **********/
 
     .Box-role {
+        flex: 1 1 calc(50% - 12px);
+        min-width: 280px;
         margin: 0;
     }
 
@@ -212,9 +284,8 @@
         font-size: 56px;
     }
 
-    /* =============================================
-       TABLEAU GUIDE - plus grand
-       ============================================= */
+
+    /********** TABLEAU GUIDE **********/
 
     .tableau-guide {
         font-size: 18px;
@@ -225,14 +296,8 @@
         padding: 14px 20px;
     }
 
-    /* La box avec le tableau prend toute la largeur */
-    main > .Box-jaune:has(.tableau-guide) {
-        grid-column: 1 / -1;
-    }
 
-    /* =============================================
-       BOSS HEADER - icône plus grande
-       ============================================= */
+    /********** BOSS — ICÔNES ET LISTE **********/
 
     .boss-icon {
         width: 48px;
@@ -249,20 +314,18 @@
         gap: 14px;
     }
 
-    /* =============================================
-       VIDEO - plus grande
-       ============================================= */
+
+    /********** VIDÉO **********/
 
     .Box-verte video {
         border-radius: 16px;
     }
 
-    /* =============================================
-       FOOTER
-       ============================================= */
+
+    /********** FOOTER **********/
 
     footer {
-        grid-column: 1 / -1;
+        flex: 1 1 100%;
         border-radius: 25px 25px 0 0;
         padding: 30px 60px 60px;
     }
@@ -277,38 +340,41 @@
         align-items: center;
     }
 
-    /* =============================================
-       PAGE ACCUEIL - intro + bannière côte à côte
-       ============================================= */
+
+    /********** PAGE ACCUEIL — intro + image côte à côte **********/
 
     .Page-accueil main > .Box-gris-foncee:first-child .introduction {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: row;
         gap: 30px;
         align-items: center;
     }
 
-    .Page-accueil main > .Box-gris-foncee:first-child .introduction img {
-        grid-column: 2;
-        grid-row: 1 / 4;
-        border-radius: 20px;
-        width: 100%;
-        height: auto;
-        object-fit: cover;
+    /* Le texte prend l'espace disponible */
+    .Page-accueil main > .Box-gris-foncee:first-child .introduction > *:not(img) {
+        flex: 1;
     }
 
-    /* =============================================
-       PAGE GUIDE - box intro pleine largeur
-       ============================================= */
+    /* L'image occupe la moitié de la box */
+    .Page-accueil main > .Box-gris-foncee:first-child .introduction img {
+        flex: 0 0 45%;
+        max-width: 45%;
+        border-radius: 20px;
+        height: auto;
+        object-fit: cover;
+        order: 2;
+    }
+
+
+    /********** PAGE GUIDE — intro centrée **********/
 
     .Page-guide main > .Box-gris-foncee:first-child .introduction {
         max-width: 800px;
         margin: 0 auto;
     }
 
-    /* =============================================
-       SCROLLBAR PERSONNALISÉE
-       ============================================= */
+
+    /********** SCROLLBAR PERSONNALISÉE **********/
 
     ::-webkit-scrollbar {
         width: 10px;
@@ -325,50 +391,6 @@
 
     ::-webkit-scrollbar-thumb:hover {
         background: #1b5e20;
-    }
-
-}
-
-/* =============================================
-   TABLETTE - 768px à 1023px
-   ============================================= */
-
-@media (min-width: 768px) and (max-width: 1023px) {
-
-    body {
-        font-size: 19px;
-    }
-
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 16px;
-        padding: 0 16px;
-        align-items: start;
-    }
-
-    main > *:first-child,
-    main > *:last-child,
-    footer {
-        grid-column: 1 / -1;
-    }
-
-    .Box-jaune:has(.btn-suite),
-    .Box-gris-claire:has(.btn-suite),
-    .Box-verte:has(.btn-suite) {
-        grid-column: 1 / -1;
-    }
-
-    main > a.btn-suite {
-        grid-column: 1 / -1;
-    }
-
-    header img {
-        height: 95px;
-    }
-
-    .menu-btn {
-        font-size: 28px !important;
     }
 
 }

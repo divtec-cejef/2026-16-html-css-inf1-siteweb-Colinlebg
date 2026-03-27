@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Modifier les couleurs dans boss_hardmode.html">
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Ajouter les responsive.css pour fair la version grand écrans et ajouter le lien discord dans le pied de page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boss_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/boss_hardmode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combats_pre-hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/combats_pre-hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debut_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/debut_hardmode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debuter_une_partie.html" beforeDir="false" afterPath="$PROJECT_DIR$/debuter_une_partie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploration_et_progression.html" beforeDir="false" afterPath="$PROJECT_DIR$/exploration_et_progression.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fin_du_jeux.html" beforeDir="false" afterPath="$PROJECT_DIR$/fin_du_jeux.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro_guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/optimisation.html" beforeDir="false" afterPath="$PROJECT_DIR$/optimisation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passage_au_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/passage_au_hardmode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progression_avancee.html" beforeDir="false" afterPath="$PROJECT_DIR$/progression_avancee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/role.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +113,7 @@
       <workItem from="1774267461385" duration="9541000" />
       <workItem from="1774295159862" duration="213000" />
       <workItem from="1774614676549" duration="209000" />
-      <workItem from="1774614894131" duration="1903000" />
+      <workItem from="1774614894131" duration="5803000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -301,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774277283848</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Ajouter les responsive.css pour fair la version grand écrans et ajouter le lien discord dans le pied de page">
+      <option name="closed" value="true" />
+      <created>1774616958988</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1774616958988</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +338,7 @@
     <MESSAGE value="Fini la page optimisation.html" />
     <MESSAGE value="Fini le fin_du_jeux.html" />
     <MESSAGE value="Modifier les couleurs dans boss_hardmode.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifier les couleurs dans boss_hardmode.html" />
+    <MESSAGE value="Ajouter les responsive.css pour fair la version grand écrans et ajouter le lien discord dans le pied de page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajouter les responsive.css pour fair la version grand écrans et ajouter le lien discord dans le pied de page" />
   </component>
 </project>

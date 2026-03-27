@@ -21,7 +21,7 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.4;
-    color: darkblue;
+    color: #FFFFFF;
     background-color: whitesmoke;
     max-width: calc(100% - 23px);
     margin: auto;
@@ -33,14 +33,14 @@ body {
 }
 
 a {
-    color: deeppink;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 0;
     margin: 0;
 }
 
 a:hover {
-    color: darkmagenta;
+    color: #424242;
 }
 
 /********** HEADER - centré **********/
@@ -212,7 +212,7 @@ header img {
 .btn-suite {
     display: block;
     background-color: #2E7D32;
-    color: #fff !important;
+    color: #fff ;
     font-family: 'Comic Neue', 'Comic Sans MS', cursive;
     font-size: 28px;
     font-weight: 700;
@@ -229,7 +229,7 @@ header img {
 
 .btn-suite:hover {
     background-color: #1b5e20;
-    color: #fff !important;
+    color: #fff ;
     transform: scale(1.02);
 }
 
@@ -386,7 +386,7 @@ header img {
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #D3D3D3 !important;
+    color: #D3D3D3;
     font-style: italic;
     font-size: 18px;
     text-decoration: none;
@@ -394,7 +394,7 @@ header img {
 }
 
 .liste-boss a:hover {
-    color: #2E7D32 !important;
+    color: #2E7D32 ;
     font-weight: 700;
 }
 
@@ -495,7 +495,7 @@ footer .reseau-sociaux {
 .menu-btn {
     display: block;
     background-color: #D3D3D3;
-    color: #111 !important;
+    color: #111 ;
     font-family: 'Comic Neue', 'Comic Sans MS', cursive;
     font-size: 34px;
     font-weight: 700;
@@ -512,12 +512,12 @@ footer .reseau-sociaux {
 
 .menu-btn:hover {
     background-color: #2E7D32;
-    color: #fff !important;
+    color: #fff;
     transform: scale(1.02);
 }
 
 .menu-btn.actif {
     background-color: #F7F3BB;
-    color: #111 !important;
+    color: #111;
     border-color: #111;
 }

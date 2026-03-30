@@ -1,0 +1,523 @@
+/* ========================================
+   FONTS
+   ======================================== */
+
+@font-face {
+    font-display: swap;
+    font-family: 'Comic Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/comic-neue-v9-latin-regular.woff2') format('woff2');
+}
+
+/********** RESET & BASE **********/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #FFFFFF;
+    background-color: whitesmoke;
+    max-width: calc(100% - 23px);
+    margin: auto;
+    background-image: url("../img/terraria-biome-background-h1bm9hfi6el9yrfu.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    color: #424242;
+}
+
+/********** HEADER - centré **********/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 900;
+    pointer-events: none;
+}
+
+header img {
+    height: 80px;
+    width: auto;
+    pointer-events: all;
+}
+
+/********** BOXES - STYLES COMMUNS **********/
+
+.Box-gris-foncee,
+.Box-gris-claire,
+.Box-verte,
+.Box-jaune,
+.Box-violet,
+.Box-noir {
+    border-radius: 25px;
+    padding: 0 40px 20px;
+    margin: 20px 0;
+}
+
+.Box-gris-foncee h1,
+.Box-gris-claire h1,
+.Box-verte h1,
+.Box-jaune h1,
+.Box-violet h1,
+.Box-noir h1 {
+    padding-top: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.Box-gris-foncee h2,
+.Box-gris-claire h2,
+.Box-verte h2,
+.Box-jaune h2,
+.Box-violet h2,
+.Box-noir h2 {
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.Box-gris-foncee h3,
+.Box-gris-claire h3,
+.Box-verte h3,
+.Box-jaune h3,
+.Box-violet h3,
+.Box-noir h3 {
+    padding-top: 14px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.Box-gris-foncee ul,
+.Box-gris-claire ul,
+.Box-verte ul,
+.Box-jaune ul,
+.Box-violet ul,
+.Box-noir ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.Box-gris-foncee ol,
+.Box-gris-claire ol,
+.Box-verte ol,
+.Box-jaune ol,
+.Box-violet ol,
+.Box-noir ol {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.Box-gris-foncee li,
+.Box-gris-claire li,
+.Box-verte li,
+.Box-jaune li,
+.Box-violet li,
+.Box-noir li {
+    margin-bottom: 8px;
+}
+
+/********** BOXES - COULEURS **********/
+
+.Box-gris-foncee {
+    background-color: #424242;
+    color: #D3D3D3;
+    margin-top: 110px;
+}
+
+.Box-gris-foncee img:not(.boss-icon):not(.liste-boss img) {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.Box-gris-claire {
+    background-color: #D3D3D3;
+    color: #000000;
+}
+
+.Box-verte {
+    background-color: #2E7D32;
+    color: #FFFFFF;
+}
+
+.Box-verte video {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.Box-jaune {
+    background-color: #F7F3BB;
+    color: #000000;
+}
+
+.Box-violet {
+    background-color: #6A1B9A;
+    color: #FFFFFF;
+}
+
+.Box-noir {
+    background-color: #111111;
+    color: #D3D3D3;
+}
+
+/********** VIDEO PLACEHOLDER **********/
+
+.video-placeholder {
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.video-placeholder p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111;
+}
+
+/********** BOUTON PASSER À LA SUITE **********/
+
+.btn-suite {
+    display: block;
+    background-color: #2E7D32;
+    color: #fff ;
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 20px auto 10px;
+    width: 100%;
+    line-height: 1.3;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-suite:hover {
+    background-color: #1b5e20;
+    color: #fff ;
+    transform: scale(1.02);
+}
+
+/********** TABLEAU GUIDE **********/
+
+.tableau-guide {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.tableau-guide th {
+    background-color: #9E8A00;
+    color: #fff;
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 700;
+    border: 1px solid #7a6a00;
+}
+
+.tableau-guide td {
+    padding: 0;
+    border: 1px solid #ccc;
+    background-color: rgba(255,255,255,0.6);
+    color: #111;
+}
+
+.tableau-guide tr:nth-child(even) td {
+    background-color: rgba(255,255,240,0.8);
+}
+
+.tableau-guide td a {
+    display: block;
+    padding: 10px 14px;
+    color: #111;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.tableau-guide td a:hover {
+    background-color: #2E7D32;
+    color: #fff;
+    font-weight: 700;
+}
+
+.tableau-guide td:last-child {
+    padding: 10px 14px;
+}
+
+/********** BOXES ROLES - bannière image + titre superposé **********/
+
+.Box-role {
+    border-radius: 25px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.Box-role__banniere {
+    position: relative;
+    width: 100%;
+    height: 160px;
+}
+
+.Box-role__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.Box-role__titre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px  2px 0 #000,
+            2px  2px 0 #000,
+            0px  3px 8px rgba(0,0,0,0.7);
+}
+
+.Box-role__contenu {
+    padding: 20px 30px 24px;
+}
+
+.Box-role__contenu p {
+    margin-bottom: 12px;
+}
+
+.Box-role__contenu ul {
+    padding-left: 20px;
+    margin: 10px 0 12px;
+}
+
+.Box-role__contenu li {
+    margin-bottom: 6px;
+}
+
+.Box-role--jaune { background-color: #F7F3BB; color: #000; }
+.Box-role--violet { background-color: #3a006f; color: #fff; }
+.Box-role--vert { background-color: #2E7D32; color: #fff; }
+.Box-role--gris { background-color: #424242; color: #D3D3D3; }
+
+/********** BOSS HEADER - titre + icône côte à côte **********/
+
+.boss-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-bottom: 16px;
+}
+
+.boss-header h2 {
+    padding-top: 0;
+    margin-bottom: 0;
+    flex: 1;
+}
+
+.boss-icon {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    flex-shrink: 0;
+    image-rendering: pixelated;
+}
+
+/********** LISTE DES BOSS avec icônes **********/
+
+.liste-boss {
+    list-style: none;
+    padding-left: 0;
+}
+
+.liste-boss li {
+    margin-bottom: 10px;
+}
+
+.liste-boss a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #D3D3D3;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.liste-boss a:hover {
+    color: #2E7D32 ;
+    font-weight: 700;
+}
+
+.liste-boss img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    flex-shrink: 0;
+    image-rendering: pixelated;
+}
+
+/********** FOOTER **********/
+
+footer {
+    text-align: center;
+    display: block;
+    background-color: #D3D3D3;
+    color: #000000;
+    padding: 20px 30px 200px;
+    margin: 30px 0 0;
+    border-radius: 25px 25px 0 0;
+}
+
+footer .reseau-sociaux {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 10px;
+    width: 100%;
+}
+
+/********** MENU CSS PUR - checkbox cachée **********/
+
+#toggle-menu {
+    display: none;
+}
+
+.cercle-fixe {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    border: 3px solid #000000;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 2000;
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cercle-fixe:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+#toggle-menu:checked ~ .cercle-fixe {
+    border-color: #2E7D32;
+    box-shadow: 0 0 0 4px rgba(46,125,50,0.3);
+}
+
+.cercle-fixe img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.menu-flottant {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    padding: 100px 20px 20px;
+    z-index: 1500;
+    transform: translateY(-100%);
+    transition: transform 0.4s ease;
+    pointer-events: none;
+}
+
+#toggle-menu:checked ~ .menu-flottant {
+    transform: translateY(0);
+    pointer-events: all;
+}
+
+/********** BOUTONS DU MENU **********/
+
+.menu-btn {
+    display: block;
+    background-color: #D3D3D3;
+    color: #111 ;
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive;
+    font-size: 34px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 26px 0;
+    border-radius: 50px;
+    border: 2px solid #555;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    white-space: nowrap;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-btn:hover {
+    background-color: #2E7D32;
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.menu-btn.actif {
+    background-color: #F7F3BB;
+    color: #111;
+    border-color: #111;
+}

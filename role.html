@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Titre de l'onglet -->
   <title>Rôles | Terraria | Fandom</title>
   <meta name="author" content="Colin Vogt">
   <meta name="description" content="Guide complet de Terraria.">
+  <!-- Feuilles de style -->
   <link rel="stylesheet" href="css/normalize.css"/>
   <link rel="stylesheet" href="css/main.css"/>
   <link rel="stylesheet" href="css/responsive.css"/>
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
@@ -16,13 +19,14 @@
 </head>
 <body class="Page-role">
 
+<!-- ========== HEADER : Logo fixe en haut ========== -->
 <header>
   <img src="./img/HD-Terraria-Logo.webp" alt="Logo de Terraria" class="Logo"/>
 </header>
 
 <main>
 
-  <!-- Introduction -->
+  <!-- ========== INTRODUCTION : Explication des rôles ========== -->
   <div class="Box-gris-foncee">
     <div class="introduction">
       <h1>Les rôles</h1>
@@ -32,10 +36,13 @@
     </div>
   </div>
 
-  <!-- Mêlée -->
+  <!-- ========== RÔLE MÊLÉE : Combattant de première ligne ========== -->
+  <!-- Structure : .Box-role contient une bannière image + titre superposé, puis le texte -->
   <div class="Box-role Box-role--jaune">
     <div class="Box-role__banniere">
+      <!-- Image de fond de la bannière -->
       <img src="./img/Class_Melee.webp" alt="Bannière Mêlée" class="Box-role__img"/>
+      <!-- Titre superposé sur l'image avec text-shadow noir pour lisibilité -->
       <h1 class="Box-role__titre">Mêlée</h1>
     </div>
     <div class="Box-role__contenu">
@@ -51,12 +58,11 @@
       </ul>
       <p>Le <strong>Mêlée</strong> est souvent en première ligne, certaine armure le rend plus
         <strong>vulnérable</strong> d'être <strong>cibler</strong> par les ennemies ce qui permet au autre rôle
-        de
-        ne pas être <strong>attaqué</strong> et peut survivre là où les autres classes auraient du mal.</p>
+        de ne pas être <strong>attaqué</strong> et peut survivre là où les autres classes auraient du mal.</p>
     </div>
   </div>
 
-  <!-- Mage -->
+  <!-- ========== RÔLE MAGE : Lanceur de sorts à distance ========== -->
   <div class="Box-role Box-role--violet">
     <div class="Box-role__banniere">
       <img src="./img/Class_Mage.webp" alt="Bannière Mage" class="Box-role__img"/>
@@ -76,7 +82,7 @@
     </div>
   </div>
 
-  <!-- Distance -->
+  <!-- ========== RÔLE DISTANCE : Combattant à longue portée ========== -->
   <div class="Box-role Box-role--vert">
     <div class="Box-role__banniere">
       <img src="./img/Class_Distance.webp" alt="Bannière Distance" class="Box-role__img"/>
@@ -96,7 +102,7 @@
     </div>
   </div>
 
-  <!-- Invocation -->
+  <!-- ========== RÔLE INVOCATION : Invocateur de sbires ========== -->
   <div class="Box-role Box-role--gris">
     <div class="Box-role__banniere">
       <img src="./img/Class_Invocation.webp" alt="Bannière Invocation" class="Box-role__img"/>
@@ -118,6 +124,7 @@
 
 </main>
 
+<!-- ========== FOOTER : Réseaux sociaux + copyright ========== -->
 <footer>
   <nav class="reseau-sociaux">
     <a href="https://discord.gg/MsZWSTrvD7" target="_blank" rel="noopener noreferrer">
@@ -133,23 +140,21 @@
   &copy;2026 Colin Vogt
 </footer>
 
-<!-- Checkbox cachée qui contrôle le menu -->
+<!-- ========== MENU NAVIGATION FLOTTANT (CSS pur, sans JavaScript) ========== -->
 <input type="checkbox" id="toggle-menu"/>
 
-<!-- Cercle avec l'arbre = label cliquable -->
 <label for="toggle-menu" class="cercle-fixe">
   <img src="./img/Arbre_Terraria.png" alt="Ouvrir le menu de navigation"/>
 </label>
 
-<!-- Menu -->
+<!-- "actif" sur Rôle car c'est la page actuelle -->
 <nav class="menu-flottant">
   <a href="index.html" class="menu-btn">Accueil</a>
-  <a href="role.html" class="menu-btn actif">Rôle</a>
+  <a href="role.html" class="menu-btn actif">Rôle</a><!-- Page actuelle -->
   <a href="intro_guide.html" class="menu-btn">Guide du jeux</a>
   <a href="https://terraria.wiki.gg/" class="menu-btn" target="_blank" rel="noopener noreferrer">Wiki</a>
   <a href="https://store.steampowered.com/app/105600/Terraria/" class="menu-btn" target="_blank" rel="noopener noreferrer">Jouer</a>
 </nav>
 
-<script src="js/menu.js"></script>
 </body>
 </html>

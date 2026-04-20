@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- charset -->
     <meta charset="UTF-8">
+    <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titre de l'onglet -->
-    <title>Intro Guide | Terraria | Fandom</title>
+    <title>Intro Guide |Terraria | Fandom</title>
+    <!-- auteur -->
     <meta name="author" content="Colin Vogt">
+    <!-- description -->
     <meta name="description" content="Guide complet de Terraria.">
-    <!-- Feuilles de style -->
+    <!-- feuilles de style -->
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
-    <!-- Favicon -->
+    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
@@ -19,14 +22,15 @@
 </head>
 <body class="Page-guide">
 
-<!-- ========== HEADER : Logo fixe en haut ========== -->
+<!-- header -->
 <header>
     <img src="./img/HD-Terraria-Logo.webp" alt="Logo de Terraria" class="Logo" height="80px"/>
 </header>
 
+<!-- main -->
 <main>
 
-    <!-- ========== INTRODUCTION : Avertissement anti-spoilers ========== -->
+
     <div class="Box-gris-foncee">
         <div class="introduction">
             <h1>Guide du jeu</h1>
@@ -39,11 +43,11 @@
         </div>
     </div>
 
-    <!-- ========== TABLEAU : Liste des étapes du guide avec liens ========== -->
-    <!-- Chaque cellule de la colonne gauche est un lien vers la page correspondante -->
+
     <div class="Box-jaune">
         <div class="Mise-a-jour">
             <h1>Étapes de progression</h1>
+            <!-- tableau des étapes -->
             <table class="tableau-guide">
                 <thead>
                 <tr>
@@ -52,47 +56,38 @@
                 </tr>
                 </thead>
                 <tbody>
-                <!-- Étape 1 -->
                 <tr>
                     <td><a href="debuter_une_partie.html">Débuter une partie</a></td>
                     <td>Création du monde, Première action, première maison</td>
                 </tr>
-                <!-- Étape 2 -->
                 <tr>
                     <td><a href="exploration_et_progression.html">Exploration &amp; Progression</a></td>
                     <td>Surface, souterraine, biome de départ</td>
                 </tr>
-                <!-- Étape 3 -->
                 <tr>
                     <td><a href="combats_pre-hardmode.html">Combats Pré-Hardmode</a></td>
                     <td>Stratégie pour les boss, arènes, loot</td>
                 </tr>
-                <!-- Étape 4 -->
                 <tr>
                     <td><a href="passage_au_hardmode.html">Passage au Hardmode</a></td>
                     <td>Nouveaux biome, nouveaux minéraux</td>
                 </tr>
-                <!-- Étape 5 -->
                 <tr>
                     <td><a href="debut_hardmode.html">Progression Hardmode</a></td>
                     <td>Resource, craft &amp; armure</td>
                 </tr>
-                <!-- Étape 6 -->
                 <tr>
                     <td><a href="boss_hardmode.html">Boss Hardmode</a></td>
                     <td>Tout les boss, jusqu'au boss final</td>
                 </tr>
-                <!-- Étape 7 -->
                 <tr>
                     <td><a href="progression_avancee.html">Évènement Spéciaux</a></td>
                     <td>Tout les évènement et leurs loot</td>
                 </tr>
-                <!-- Étape 8 -->
                 <tr>
                     <td><a href="optimisation.html">Construction &amp; Systèmes de pylône</a></td>
                     <td>Base pour les PNJ, systèmes de pylône</td>
                 </tr>
-                <!-- Étape 9 -->
                 <tr>
                     <td><a href="fin_du_jeux.html">Fin du Jeu &amp; Contenu Optionnel</a></td>
                     <td>Défi et astuce</td>
@@ -104,8 +99,9 @@
 
 </main>
 
-<!-- ========== FOOTER : Réseaux sociaux + copyright ========== -->
+<!-- footer -->
 <footer>
+    <!-- réseaux sociaux -->
     <nav class="reseau-sociaux">
         <a href="https://discord.gg/MsZWSTrvD7" target="_blank" rel="noopener noreferrer">
             <img src="./img/logo_discord.png" alt="Logo de discord" width="60" height="60"/>
@@ -120,21 +116,26 @@
     &copy;2026 Colin Vogt
 </footer>
 
-<!-- ========== MENU NAVIGATION FLOTTANT (CSS pur, sans JavaScript) ========== -->
+
+<!-- checkbox cachée pour le menu -->
 <input type="checkbox" id="toggle-menu"/>
 
+
+<!-- bouton cercle qui ouvre le menu -->
 <label for="toggle-menu" class="cercle-fixe">
     <img src="./img/Arbre_Terraria.png" alt="Ouvrir le menu de navigation"/>
 </label>
 
-<!-- "actif" sur Guide car c'est la page actuelle -->
+
+<!-- menu de navigation -->
 <nav class="menu-flottant">
     <a href="index.html" class="menu-btn">Accueil</a>
     <a href="role.html" class="menu-btn">Rôle</a>
-    <a href="intro_guide.html" class="menu-btn actif">Guide du jeux</a><!-- Page actuelle -->
+    <a href="intro_guide.html" class="menu-btn actif"><!-- page actuelle -->Guide du jeux</a>
     <a href="https://terraria.wiki.gg/" class="menu-btn" target="_blank" rel="noopener noreferrer">Wiki</a>
     <a href="https://store.steampowered.com/app/105600/Terraria/" class="menu-btn" target="_blank" rel="noopener noreferrer">Jouer</a>
 </nav>
+
 
 </body>
 </html>

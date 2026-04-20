@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- charset -->
     <meta charset="UTF-8">
+    <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titre de l'onglet -->
     <title>Terraria | Fandom</title>
+    <!-- auteur -->
     <meta name="author" content="Colin Vogt">
+    <!-- description -->
     <meta name="description" content="Guide complet de Terraria.">
-    <!-- Feuilles de style -->
+    <!-- feuilles de style -->
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
-    <!-- Favicon -->
+    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
@@ -19,15 +22,17 @@
 </head>
 <body class="Page-accueil">
 
-<!-- ========== HEADER : Logo fixe en haut ========== -->
+<!-- header -->
 <header>
     <img src="./img/HD-Terraria-Logo.webp" alt="Logo de Terraria" class="Logo" height="80px"/>
 </header>
 
+<!-- main -->
 <main>
 
-    <!-- ========== SECTION ACCUEIL : Présentation du site ========== -->
+
     <div class="Box-gris-foncee">
+        <!-- introduction -->
         <div class="introduction">
             <h1>Accueil</h1>
             <p>Ce site est destiné à tous les joueurs de Terraria, qu'ils soient débutants ou expérimentés.
@@ -38,17 +43,17 @@
                 <li><strong>Lien</strong> vers le <strong>Wiki</strong> pour pouvoir vous aider avec les craft</li>
                 <li><strong>Espace pour les questions</strong></li>
             </ul>
-            <!-- Image bannière du jeu -->
             <img src="img/Terarria.jpg" alt="Bannière Terraria"/>
         </div>
     </div>
 
-    <!-- ========== SECTION TERRARIA : Description du jeu + vidéo ========== -->
+
     <div class="Box-verte">
+        <!-- description terraria -->
         <div class="Description">
             <h1>Terraria</h1>
 
-            <!-- Vidéo de gameplay en lecture automatique, sans son, en boucle -->
+            <!-- vidéo gameplay -->
             <div class="video-placeholder">
                 <video autoplay muted loop playsinline controls>
                     <source src="/Video/Gameplay-Terraria.mp4" type="video/mp4"/>
@@ -69,8 +74,9 @@
         </div>
     </div>
 
-    <!-- ========== SECTION MISES À JOUR : Dernières nouveautés du jeu ========== -->
+
     <div class="Box-jaune">
+        <!-- mises à jour -->
         <div class="Mise-a-jour">
             <h1>Dernières mises à jour</h1>
             <p>• <strong>Update 1.4.5</strong> : Ajout de nouveaux ennemis et équipements, correction de bugs,
@@ -84,18 +90,16 @@
 
 </main>
 
-<!-- ========== FOOTER : Réseaux sociaux + copyright ========== -->
+<!-- footer -->
 <footer>
+    <!-- réseaux sociaux -->
     <nav class="reseau-sociaux">
-        <!-- Lien Discord -->
         <a href="https://discord.gg/MsZWSTrvD7" target="_blank" rel="noopener noreferrer">
             <img src="./img/logo_discord.png" alt="Logo de discord" width="60" height="60"/>
         </a>
-        <!-- Lien YouTube -->
         <a href="https://www.youtube.com/@Colpome" target="_blank" rel="noopener noreferrer">
             <img src="./img/Logo_youtube.png" alt="Logo de Youtube" width="75" height="50"/>
         </a>
-        <!-- Lien Twitch -->
         <a href="https://www.twitch.tv/colpome" target="_blank" rel="noopener noreferrer">
             <img src="./img/Logo_twitch.png" alt="Logo de Twitch" width="60" height="70"/>
         </a>
@@ -103,25 +107,20 @@
     &copy;2026 Colin Vogt
 </footer>
 
-<!-- ========== MENU NAVIGATION FLOTTANT (CSS pur, sans JavaScript) ==========
-     Fonctionnement :
-     1. La checkbox #toggle-menu est cachée (display: none dans le CSS)
-     2. Le label .cercle-fixe est cliquable et coche/décoche la checkbox
-     3. Quand la checkbox est cochée (#toggle-menu:checked),
-        le CSS affiche le menu via : #toggle-menu:checked ~ .menu-flottant
-     ========================================================================== -->
 
-<!-- Checkbox cachée qui contrôle l'ouverture/fermeture du menu -->
+<!-- checkbox cachée pour le menu -->
 <input type="checkbox" id="toggle-menu"/>
 
-<!-- Bouton cercle avec l'arbre = clique dessus pour ouvrir le menu -->
+
+<!-- bouton cercle qui ouvre le menu -->
 <label for="toggle-menu" class="cercle-fixe">
     <img src="./img/Arbre_Terraria.png" alt="Ouvrir le menu de navigation"/>
 </label>
 
-<!-- Menu de navigation - "actif" indique la page courante -->
+
+<!-- menu de navigation -->
 <nav class="menu-flottant">
-    <a href="index.html" class="menu-btn actif">Accueil</a><!-- Page actuelle -->
+    <a href="index.html" class="menu-btn actif"><!-- page actuelle -->Accueil</a>
     <a href="role.html" class="menu-btn">Rôle</a>
     <a href="intro_guide.html" class="menu-btn">Guide du jeux</a>
     <a href="https://terraria.wiki.gg/" class="menu-btn" target="_blank" rel="noopener noreferrer">Wiki</a>

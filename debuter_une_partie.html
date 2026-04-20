@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- charset -->
     <meta charset="UTF-8">
+    <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titre de l'onglet -->
     <title>Débuter une partie | Terraria | Fandom</title>
+    <!-- auteur -->
     <meta name="author" content="Colin Vogt">
+    <!-- description -->
     <meta name="description" content="Guide complet de Terraria.">
-    <!-- Feuilles de style -->
+    <!-- feuilles de style -->
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
-    <!-- Favicon -->
+    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
@@ -19,28 +22,26 @@
 </head>
 <body class="Debut-partie">
 
-<!-- ========== HEADER : Logo fixe en haut ========== -->
+<!-- header -->
 <header>
     <img src="./img/HD-Terraria-Logo.webp" alt="Logo de Terraria" class="Logo"/>
 </header>
 
+<!-- main -->
 <main>
 
-    <!-- ========== TITRE + IMAGE BANNIÈRE ========== -->
     <div class="Box-gris-foncee">
         <h1>Débuter une partie</h1>
-        <!-- Capture d'écran de l'écran de création de personnage -->
         <img src="./img/CreationPersonnage.webp" alt="Capture d'écran création de personnage Terraria"/>
     </div>
 
-    <!-- ========== CRÉATION DU PERSONNAGE : Apparence et classe ========== -->
+
     <div class="Box-gris-claire">
         <h1>Création du personnage</h1>
         <ul>
             <li><strong>Apparence</strong> : cheveux, yeux, peau, vêtements. Optionnelle, mais amusante.</li>
             <li><strong>Classe recommandée :</strong>
                 <ul>
-                    <!-- Les 4 classes principales du jeu -->
                     <li><strong>Mêlée</strong> : privilégie les épées et haches, armures solides, bonne résistance.</li>
                     <li><strong>Distance</strong> : arcs, fusils, arbalètes, très mobile.</li>
                     <li><strong>Magie</strong> : bâtons et livres, nécessite du mana mais fait de gros dégâts.</li>
@@ -52,14 +53,13 @@
         <p><strong>Conseil</strong> : commencez en Classique pour apprendre les bases sans trop de pression.</p>
     </div>
 
-    <!-- ========== CRÉATION DU MONDE : Taille et biome maléfique ========== -->
+
     <div class="Box-jaune">
         <h1>Création du monde</h1>
         <ul>
             <li><strong>Taille</strong> : Petit, Moyen, Grand. Plus le monde est grand, plus il y a de biomes et de trésors, mais l'exploration est plus longue.</li>
             <li><strong>Choix Corruption ou Carmin</strong> :
                 <ul>
-                    <!-- Corruption = biome sombre / Carmin = biome rouge, choix permanent -->
                     <li><strong>Corruption</strong> : ennemis plus faciles à reconnaître, biome sombre.</li>
                     <li><strong>Carmin</strong> : ennemis différents, plus agressifs parfois.</li>
                 </ul>
@@ -68,7 +68,7 @@
         </ul>
     </div>
 
-    <!-- ========== PREMIÈRES ACTIONS : Que faire dès le début ========== -->
+
     <div class="Box-violet">
         <h1>Premières actions</h1>
         <ul>
@@ -83,7 +83,6 @@
                 </ul>
             </li>
         </ul>
-        <!-- Conseils supplémentaires pour bien démarrer -->
         <p><strong>Conseil :</strong></p>
         <ul>
             <li>Si vous trouvez un <em>désert</em> prenez du <em>cactus</em> à l'aide de votre hache afin
@@ -94,14 +93,13 @@
         </ul>
     </div>
 
-    <!-- ========== PREMIÈRE MAISON : Critères pour une maison valide ========== -->
+
     <div class="Box-verte">
         <h1>Construire votre première maison</h1>
         <p>Pour faire <strong>apparaître</strong> vos premiers PNJ et vous <strong>protéger</strong> vous
             aurez besoin d'une <strong>maison</strong>.</p>
         <p>Pour <strong>construire</strong> une bonne maison pour un début de partie, il vous faut:</p>
         <ul>
-            <!-- Critères minimum pour qu'une maison soit valide pour un PNJ -->
             <li><strong>Taille minimale</strong> : 3 blocs de haut, 5 de large</li>
             <li>Murs <strong>obligatoires</strong> pour l'intérieur</li>
             <li><strong>Porte</strong> et source de <strong>lumière</strong> (torche ou lanterne)</li>
@@ -112,19 +110,19 @@
             vous pourrez construire des quartiers plus grands après.</p>
     </div>
 
-    <!-- ========== PAUSE ANTI-SPOILERS + LIEN PAGE SUIVANTE ========== -->
+
     <div class="Box-jaune">
         <h1>Pause / Sécurité contre les spoilers:</h1>
         <p>Maintenant que votre personnage est créé, le monde généré et votre première maison construite,
             êtes-vous prêt à passer à la partie suivante : <strong>exploration et progression pré-Hardmode</strong> ?</p>
-        <!-- Bouton vers la page suivante du guide -->
         <a href="exploration_et_progression.html" class="btn-suite">passer à<br>la suite</a>
     </div>
 
 </main>
 
-<!-- ========== FOOTER : Réseaux sociaux + copyright ========== -->
+<!-- footer -->
 <footer>
+    <!-- réseaux sociaux -->
     <nav class="reseau-sociaux">
         <a href="https://discord.gg/MsZWSTrvD7" target="_blank" rel="noopener noreferrer">
             <img src="./img/logo_discord.png" alt="Logo de discord" width="60" height="60"/>
@@ -139,23 +137,26 @@
     &copy;2026 Colin Vogt
 </footer>
 
-<!-- ========== MENU NAVIGATION FLOTTANT (CSS pur, sans JavaScript) ========== -->
+
+<!-- checkbox cachée pour le menu -->
 <input type="checkbox" id="toggle-menu"/>
 
+
+<!-- bouton cercle qui ouvre le menu -->
 <label for="toggle-menu" class="cercle-fixe">
     <img src="./img/Arbre_Terraria.png" alt="Ouvrir le menu de navigation"/>
 </label>
 
-<!-- "actif" sur Guide car cette page fait partie du guide -->
+
+<!-- menu de navigation -->
 <nav class="menu-flottant">
     <a href="index.html" class="menu-btn">Accueil</a>
     <a href="role.html" class="menu-btn">Rôle</a>
-    <a href="intro_guide.html" class="menu-btn actif">Guide du jeux</a><!-- Section actuelle -->
+    <a href="intro_guide.html" class="menu-btn actif"><!-- page actuelle -->Guide du jeux</a>
     <a href="https://terraria.wiki.gg/" class="menu-btn" target="_blank" rel="noopener noreferrer">Wiki</a>
     <a href="https://store.steampowered.com/app/105600/Terraria/" class="menu-btn" target="_blank" rel="noopener noreferrer">Jouer</a>
 </nav>
 
-<!-- Note : pas de script JS ici, le menu fonctionne avec la checkbox CSS -->
 
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Fini la version grand ecran">
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Ajouter quelque commentaire">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boss_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/boss_hardmode.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/combats_pre-hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/combats_pre-hardmode.html" afterDir="false" />
@@ -123,7 +123,10 @@
       <workItem from="1774295159862" duration="213000" />
       <workItem from="1774614676549" duration="209000" />
       <workItem from="1774614894131" duration="6252000" />
-      <workItem from="1774870116568" duration="3731000" />
+      <workItem from="1774870116568" duration="6565000" />
+      <workItem from="1775111151128" duration="24000" />
+      <workItem from="1775248762686" duration="92000" />
+      <workItem from="1776679571841" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -317,7 +320,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774622007034</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Fini le site web">
+      <option name="closed" value="true" />
+      <created>1774874078359</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1774874078359</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Ajouter quelque commentaire">
+      <option name="closed" value="true" />
+      <created>1774877259996</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1774877259996</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +377,8 @@
     <MESSAGE value="Modifier les couleurs dans boss_hardmode.html" />
     <MESSAGE value="Ajouter les responsive.css pour fair la version grand écrans et ajouter le lien discord dans le pied de page" />
     <MESSAGE value="Fini la version grand ecran" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fini la version grand ecran" />
+    <MESSAGE value="Fini le site web" />
+    <MESSAGE value="Ajouter quelque commentaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajouter quelque commentaire" />
   </component>
 </project>

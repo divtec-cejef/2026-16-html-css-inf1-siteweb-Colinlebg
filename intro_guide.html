@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- charset -->
     <meta charset="UTF-8">
+    <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro Guide |Terraria | Fandom</title>
+    <!-- auteur -->
     <meta name="author" content="Colin Vogt">
+    <!-- description -->
     <meta name="description" content="Guide complet de Terraria.">
+    <!-- feuilles de style -->
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
+    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
@@ -16,13 +22,15 @@
 </head>
 <body class="Page-guide">
 
+<!-- header -->
 <header>
     <img src="./img/HD-Terraria-Logo.webp" alt="Logo de Terraria" class="Logo" height="80px"/>
 </header>
 
+<!-- main -->
 <main>
 
-    <!-- Introduction -->
+
     <div class="Box-gris-foncee">
         <div class="introduction">
             <h1>Guide du jeu</h1>
@@ -35,10 +43,11 @@
         </div>
     </div>
 
-    <!-- Tableau de progression -->
+
     <div class="Box-jaune">
         <div class="Mise-a-jour">
             <h1>Étapes de progression</h1>
+            <!-- tableau des étapes -->
             <table class="tableau-guide">
                 <thead>
                 <tr>
@@ -90,7 +99,9 @@
 
 </main>
 
+<!-- footer -->
 <footer>
+    <!-- réseaux sociaux -->
     <nav class="reseau-sociaux">
         <a href="https://discord.gg/MsZWSTrvD7" target="_blank" rel="noopener noreferrer">
             <img src="./img/logo_discord.png" alt="Logo de discord" width="60" height="60"/>
@@ -105,23 +116,26 @@
     &copy;2026 Colin Vogt
 </footer>
 
-<!-- Checkbox cachée qui contrôle le menu -->
+
+<!-- checkbox cachée pour le menu -->
 <input type="checkbox" id="toggle-menu"/>
 
-<!-- Cercle avec l'arbre = label cliquable -->
+
+<!-- bouton cercle qui ouvre le menu -->
 <label for="toggle-menu" class="cercle-fixe">
     <img src="./img/Arbre_Terraria.png" alt="Ouvrir le menu de navigation"/>
 </label>
 
-<!-- Menu -->
+
+<!-- menu de navigation -->
 <nav class="menu-flottant">
     <a href="index.html" class="menu-btn">Accueil</a>
     <a href="role.html" class="menu-btn">Rôle</a>
-    <a href="intro_guide.html" class="menu-btn actif">Guide du jeux</a>
+    <a href="intro_guide.html" class="menu-btn actif"><!-- page actuelle -->Guide du jeux</a>
     <a href="https://terraria.wiki.gg/" class="menu-btn" target="_blank" rel="noopener noreferrer">Wiki</a>
     <a href="https://store.steampowered.com/app/105600/Terraria/" class="menu-btn" target="_blank" rel="noopener noreferrer">Jouer</a>
 </nav>
 
-<script src="js/menu.js"></script>
+
 </body>
 </html>

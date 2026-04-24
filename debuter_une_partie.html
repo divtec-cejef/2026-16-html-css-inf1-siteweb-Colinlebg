@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- charset -->
     <meta charset="UTF-8">
+    <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Débuter une partie | Terraria | Fandom</title>
+    <!-- auteur -->
     <meta name="author" content="Colin Vogt">
+    <!-- description -->
     <meta name="description" content="Guide complet de Terraria.">
+    <!-- feuilles de style -->
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
+    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
@@ -16,18 +22,20 @@
 </head>
 <body class="Debut-partie">
 
+<!-- header -->
 <header>
     <img src="./img/HD-Terraria-Logo.webp" alt="Logo de Terraria" class="Logo"/>
 </header>
 
+<!-- main -->
 <main>
-    <!-- Section titre + image bannière -->
+
     <div class="Box-gris-foncee">
         <h1>Débuter une partie</h1>
         <img src="./img/CreationPersonnage.webp" alt="Capture d'écran création de personnage Terraria"/>
     </div>
 
-    <!-- Section Création du personnage -->
+
     <div class="Box-gris-claire">
         <h1>Création du personnage</h1>
         <ul>
@@ -45,7 +53,7 @@
         <p><strong>Conseil</strong> : commencez en Classique pour apprendre les bases sans trop de pression.</p>
     </div>
 
-    <!-- Section Création du monde -->
+
     <div class="Box-jaune">
         <h1>Création du monde</h1>
         <ul>
@@ -60,7 +68,7 @@
         </ul>
     </div>
 
-    <!-- Section Premières actions -->
+
     <div class="Box-violet">
         <h1>Premières actions</h1>
         <ul>
@@ -85,7 +93,7 @@
         </ul>
     </div>
 
-    <!-- Section Construire votre première maison -->
+
     <div class="Box-verte">
         <h1>Construire votre première maison</h1>
         <p>Pour faire <strong>apparaître</strong> vos premiers PNJ et vous <strong>protéger</strong> vous
@@ -102,7 +110,7 @@
             vous pourrez construire des quartiers plus grands après.</p>
     </div>
 
-    <!-- Section Pause / Sécurité contre les spoilers -->
+
     <div class="Box-jaune">
         <h1>Pause / Sécurité contre les spoilers:</h1>
         <p>Maintenant que votre personnage est créé, le monde généré et votre première maison construite,
@@ -112,7 +120,9 @@
 
 </main>
 
+<!-- footer -->
 <footer>
+    <!-- réseaux sociaux -->
     <nav class="reseau-sociaux">
         <a href="https://discord.gg/MsZWSTrvD7" target="_blank" rel="noopener noreferrer">
             <img src="./img/logo_discord.png" alt="Logo de discord" width="60" height="60"/>
@@ -127,23 +137,26 @@
     &copy;2026 Colin Vogt
 </footer>
 
-<!-- Checkbox cachée qui contrôle le menu -->
+
+<!-- checkbox cachée pour le menu -->
 <input type="checkbox" id="toggle-menu"/>
 
-<!-- Cercle avec l'arbre = label cliquable -->
+
+<!-- bouton cercle qui ouvre le menu -->
 <label for="toggle-menu" class="cercle-fixe">
     <img src="./img/Arbre_Terraria.png" alt="Ouvrir le menu de navigation"/>
 </label>
 
-<!-- Menu -->
+
+<!-- menu de navigation -->
 <nav class="menu-flottant">
     <a href="index.html" class="menu-btn">Accueil</a>
     <a href="role.html" class="menu-btn">Rôle</a>
-    <a href="intro_guide.html" class="menu-btn actif">Guide du jeux</a>
+    <a href="intro_guide.html" class="menu-btn actif"><!-- page actuelle -->Guide du jeux</a>
     <a href="https://terraria.wiki.gg/" class="menu-btn" target="_blank" rel="noopener noreferrer">Wiki</a>
     <a href="https://store.steampowered.com/app/105600/Terraria/" class="menu-btn" target="_blank" rel="noopener noreferrer">Jouer</a>
 </nav>
 
-<script src="js/menu.js"></script>
+
 </body>
 </html>

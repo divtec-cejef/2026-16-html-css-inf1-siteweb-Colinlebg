@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Modifier quelques erreurs dans le code" />
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Encore la meme chose je ne sais pas se que c'est">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boss_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/boss_hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/combats_pre-hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/combats_pre-hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debut_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/debut_hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debuter_une_partie.html" beforeDir="false" afterPath="$PROJECT_DIR$/debuter_une_partie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exploration_et_progression.html" beforeDir="false" afterPath="$PROJECT_DIR$/exploration_et_progression.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fin_du_jeux.html" beforeDir="false" afterPath="$PROJECT_DIR$/fin_du_jeux.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro_guide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimisation.html" beforeDir="false" afterPath="$PROJECT_DIR$/optimisation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passage_au_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/passage_au_hardmode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progression_avancee.html" beforeDir="false" afterPath="$PROJECT_DIR$/progression_avancee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/role.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,27 +61,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Master",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/vogtcol/WebstormProjects/Atelier HTML-CSS/img",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vogtcol/WebstormProjects/Atelier HTML-CSS/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vogtcol\WebstormProjects\Atelier HTML-CSS\img" />
@@ -113,7 +127,8 @@
       <workItem from="1774870116568" duration="3731000" />
       <workItem from="1777029091961" duration="806000" />
       <workItem from="1777029929403" duration="92000" />
-      <workItem from="1777030022157" duration="2695000" />
+      <workItem from="1777030022157" duration="5083000" />
+      <workItem from="1777035396174" duration="502000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -315,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777032283692</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Encore la meme chose je ne sais pas se que c'est">
+      <option name="closed" value="true" />
+      <created>1777033023163</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1777033023163</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,6 +380,7 @@
     <MESSAGE value="Ajouter les responsive.css pour fair la version grand écrans et ajouter le lien discord dans le pied de page" />
     <MESSAGE value="Fini la version grand ecran" />
     <MESSAGE value="Modifier quelques erreurs dans le code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifier quelques erreurs dans le code" />
+    <MESSAGE value="Encore la meme chose je ne sais pas se que c'est" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encore la meme chose je ne sais pas se que c'est" />
   </component>
 </project>

@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Encore la meme chose je ne sais pas se que c'est">
+    <list default="true" id="258ec58e-24a2-4b68-879f-cf343a493357" name="Changes" comment="Enlevé les commentaires du footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boss_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/boss_hardmode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combats_pre-hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/combats_pre-hardmode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debut_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/debut_hardmode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debuter_une_partie.html" beforeDir="false" afterPath="$PROJECT_DIR$/debuter_une_partie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exploration_et_progression.html" beforeDir="false" afterPath="$PROJECT_DIR$/exploration_et_progression.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fin_du_jeux.html" beforeDir="false" afterPath="$PROJECT_DIR$/fin_du_jeux.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/intro_guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/optimisation.html" beforeDir="false" afterPath="$PROJECT_DIR$/optimisation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passage_au_hardmode.html" beforeDir="false" afterPath="$PROJECT_DIR$/passage_au_hardmode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progression_avancee.html" beforeDir="false" afterPath="$PROJECT_DIR$/progression_avancee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/role.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +116,8 @@
       <workItem from="1777029091961" duration="806000" />
       <workItem from="1777029929403" duration="92000" />
       <workItem from="1777030022157" duration="5083000" />
-      <workItem from="1777035396174" duration="502000" />
+      <workItem from="1777035396174" duration="1359000" />
+      <workItem from="1778154529201" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouter structure du fichier">
       <option name="closed" value="true" />
@@ -338,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777033023163</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Enlevé les commentaires du footer">
+      <option name="closed" value="true" />
+      <created>1777035924291</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1777035924291</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +353,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ajouter structure du fichier" />
     <MESSAGE value="Ajouter quelques Information" />
     <MESSAGE value="Chaner l'icon du site" />
     <MESSAGE value="Ajouter l'accueil avec text" />
@@ -381,6 +377,7 @@
     <MESSAGE value="Fini la version grand ecran" />
     <MESSAGE value="Modifier quelques erreurs dans le code" />
     <MESSAGE value="Encore la meme chose je ne sais pas se que c'est" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encore la meme chose je ne sais pas se que c'est" />
+    <MESSAGE value="Enlevé les commentaires du footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enlevé les commentaires du footer" />
   </component>
 </project>
